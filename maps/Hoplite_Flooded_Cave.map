@@ -1,0 +1,15 @@
+border_size=1
+usage=map
+
+Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu
+Xu, Xu, Xu, Xu, Xu, Xu, Rr, Xu, Xu, Xu, Xu, Xu, Xu
+Xu, Xu, Xu, Xu, Ur, Rr, Rr, Rr, Ur, Xu, Xu, Xu, Xu
+Xu, Xu, Ur, Ur, Ur, Rr, Rr, Rr, Ur, Ur, Ur, Xu, Xu
+Xu, Xu, Ds, Ds, Ds, Ds, Ds, Ds, Ds, Ds, Ds, Xu, Xu
+Wog, Xu, Wwrg, Wwg, Wwg, Wwg, Wwg^Bw|r, Wwg, Wwg, Wwg, Wwrg, Xu, Wog
+Wog, Wwrg, Wog, Wog, Wog, Wog, Wog^Bw|r, Wog, Wog, Wog, Wog, Wwrg, Wog
+Wog, Wwrg, Wwrg, Wog, Wwg, Wog, Wwg^Bw|r, Wog, Wwg, Wog, Wwrg, Wwrg, Wog
+Xu, Xu, Ds, Wwg, Ds, Wwg, Ds, Wwg, Ds, Wwg, Ds, Xu, Xu
+Xu, Xu, Xu, Ds, Ur, Ds, Ur^Ii, Ds, Ur, Ds, Xu, Xu, Xu
+Xu, Xu, Xu, Xu, Xu, Ur^Ii, 1 Ur^Ii, Ur^Ii, Xu, Xu, Xu, Xu, Xu
+Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu
