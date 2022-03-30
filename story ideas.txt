@@ -1,0 +1,173 @@
+spartan reworked story concept (could add the intro as part of the tutorial maybe):
+
+story plan A:
+-campaign mainly takes place in pre-fall Irdya
+ -the main character is from a different world, one resembling mythological ancient greece, living in Sparta specifically
+  -main character worships greek gods, probably Ares and Athena (this should be reflected in his lines regarding religion)
+ prologue:
+ -an archeological expedition led by Archmage Arcanus (the archmage boss) descend deep into the cave where the story takes place
+  -it's an ominous ancient ruin, with altars and an unactivated portal, with a glowing crystal next to it
+  -the expedition has several mages, including an old mage which will be 
+  -archmage: "Finally, after decades of searching, we have finally found them - the Umbral Gates! According to the ancient writings we translated, the Gates can open a portal to other worlds. Begin the preparation for the ritual."
+  -*fade to black, 1000ms delay, fade in*
+  -random lower-level mage: "The preparation is complete, Master Arcanus."
+  -archmage: "Yes, my apprentice, finally, we will finally be access other worlds! The possibilities are endless! Now time to activate the crystal..."
+  -*archmage plays casting animation, screen flashes and some magic sounds are played*
+  -*red portal opens*
+  -random mage: "It's working!"
+  *Veznan (final boss demon of the campaign) enters the world from the portal, not sure about sprite yet*
+  -Veznan: "Yes, yes, the barrier between the worlds is finally broken! Irdya shall soon belong to me! Kneel before your future sovereign - Veznan, Overlord of the Ninth Circle of Inferno!"
+  -one of the random higher-level mages: "Dear god... we opened a portal the Inferno! Your experiment doomed us all, Arcanus!"
+  -archmage: "Damn it! We have no time to waste. Quick, redirect the Gates to a different world!"
+  -*portal changes color from red to blue*
+  -*hoplite(s) enter(s) world from the portal*
+  -sp: hoplite: "By Ares! Where... am I? What is happening?"
+  -mp: hoplite: "By Ares! Where... are we? What is happening?"
+  -Veznan: "You are merely delaying the inevitable, foolish mortals!"
+  -*Veznan instakills some random mages*
+  -archmage: "(to the hoplite) We can't stay here, quick, we must teleport outside the cave!"
+  -*archmage plays casting animation*
+
+
+  after everyone except archmage Arcanus and Veznan have either fled or are dead:
+  -Veznan: "The others were worthless to me, but you Arcanus, you will make quite a useful puppet."
+  -archmage: "No, no, what are you..."
+  -Veznan: "OBEY ME MORTAL!!!"#TODO: maybe add some kind of translated spell using Dugi's blackspeech generator
+  -*magic sounds/maybe a flash, ominous music change*
+  -*500ms delay*
+  -Veznan: "Now, be a good dog and reopen the portal to Inferno."
+  -archmage: "Yes... my... master..."
+  -*portal changes color to red, some demon warriors appear from it*
+  -Veznan: "Once enough of my armies arrive here, my glorious conquest shall begin!"
+
+
+
+
+tutorial section:
+ *fade to black, 3000 ms delay, fade in to a new map, somewhere in the grassland/hills/mountains near the cave*
+ -mentor: "I see you're finally awake"
+ -sp: hoplite: "Argh... where... am I? What happened?"
+ -mp: hoplite: "Argh... where... are we? What happened?"
+ -mentor: "You are now in Irdya, a world different from yours. You got accidentally teleported here"
+ -sp: hoplite: "But why have you chosen me, an outsider to your world?"
+ -mp: hoplite2: "But why have you chosen us, outsiders to your world?"
+ -mentor: "<demon boss name> has sealed the cave entrance with powerful demonic magic - as long as he is alive, no creature from Irdya may enter or exit it, but demons and other otherwordly beings may freely pass through..."
+ -hoplite: "I see."
+
+
+ -mentor: "Before I can send you to stop the demons, I must first see how well-prepared you are for the task."
+ -*teleports self and hoplite(s) to some kind of empty training ground*
+ -note: during tutorial sections, the depth exit is usually locked until the objective is completed
+ sp version of tutorial:
+ tutorial 1:
+ -*summons 3 quintains, they are 10hp units with shortrange 5-1 melee*
+ -mentor: "Your first test is to destroy these two quintains."
+ -*narrator message explaining some basic mechanics of the campaign, copied from info menu*
+ after quintains are all killed:
+ -hoplite: "That was easy. Hardly anything compared to the training we had back home."
+ -mentor: "I assure you, this is just a warmup."
+ tutorial 2:
+ *map changes to have 1-tile wide, and an open depth exit*
+ -mentor: "The next test will be a test of your athleticism - you must jump over the water."
+ -narrator: "You can leap via a rightclick menu on your character. Leaping costs 50 energy, shown in the top-right corner. The main way to restore energy is by killing enemies. Energy is also fully restored when you go to the next level."
+  if you run out of energy while not having reached the other side (repeated)
+   -mentor: "Exhausting yourself by jumping all over the place won't do you any good. I'll restore your energy with magic this time, but you won't have that luxury in the caves..."
+   -*restores energy*
+  if you reach the other side of the stream:
+   -mentor: "That was quite an impressive leap."
+ tutorial 3:
+  -*map has two quintains surrounded by water tiles*
+  -mentor: "Sometimes an enemy will be just barely out of reach. Do you happen to be skilled with any ranged weapons?"
+  -hoplite: "I prefer melee combat, but if necessary I can throw a spear quite far."
+  -mentor: "Very well, demonstrate your spear-throwing skills on these quintains"
+  -narrator: "To throw your spear, rightclick on a tile in a 2-tile radius from the hoplite. The spear can't be thrown again until it is picked up my moving to it."
+  after killing one quintain:
+   -mentor: "Good throw! Now leap to retreive the spear you've thrown"
+  after killing the second quintain:
+   -*hoplite moves to exit without touching the spear*
+   -mentor: "Wait, you forgot your spear!"
+   -hoplite: "Do not worry, my spear carries the blessing of Hermes. If I am too far from it, it eventually finds it way to me. Watch and observe."
+  if you run out of energy (repeated)
+   -mentor: "Exhausting yourself by jumping all over the place won't do you any good. I'll restore your energy with magic this time, but you won't have that luxury in the caves..."
+   -*restores energy*
+ tutorial 4:
+  -mentor: "Amazing, it did return! Your world is quite interesting, I must admit. But back to ..."
+  -*summons three orc archers with the same image mods as shadow clone*
+  -mentor: "Your next task is to kill three shadow clone archers. While they may be illusions, the arrows they are just as dangerous as the real thing. Make sure to move out of the way once you see them aiming"
+  -narrator: "tiles where archers are aiming will be highlighted in yellow. Archers will shoot on their turn"
+  once the archers are killed:
+  -mentor: "Well done, let's proceed"
+ tutorial 5:
+ -*summons some kind of powerful lvl2-3 unit which can be knocked back but has 30-50 hp and 10-15 damage*
+ -*map has lava*
+ -mentor: "Sometimes, it's best not to face an enemy head-on. Instead, you should use nearby terrain to your advantage - bash enemies into lava, walls, or chasms with your shield."
+ -narrator: "You shield bash attack pushes enemies 1 tile, and slows them for a turn."
+ when the enemy dies from lava/wallbash:
+  -mentor: "As you can see, the environment can be just as deadly of a weapon as your spear."
+ if the enemy dies from a normal attack:
+  -mentor: "You actually managed to beat him head-on? I must admit, you surpassed even my expectations."
+ tutorial 6:
+  TODO: make this tutorial part about swapping/controlling rats
+
+ final tutorial:
+  -mentor: "Forges allow you to choose from a wide variety of powerful upgrades."
+  -*hoplite uses a forge*
+  -*forge delay is set to -1 to ensure total numnber of upgrades stays same regardless of whether player starts at tutorial or depth 1*
+
+
+
+ mp version of tutorial:
+ TODO:
+
+Changes in the actual campaign:
+1.the prometheus heart is scrapped for now in this version. new objective: "kill Veznan and return to your world"
+2.shaxtal archmage fight is scrapped, the depth 15 fight is with the brainwashed archmage instead. he now has "Archmage Arcanus" as his name
+3.upgrades tied to shaxtal archmage should be tied to something else instead
+
+
+
+
+
+
+
+
+
+older WIP story concept
+-story takes place either late pre-fall or early post-fall (decide later whichever is better)
+ -the main character is from a different world, one resembling mythological ancient greece (could use the custom ivory terrain from BMR/Trinity), living in Sparta specifically
+  -main character worships greek gods, probably Ares and Athena (this should be reflected in his lines regarding religion)
+-post-fall idea:
+ -as the sun fell and wiped out Wesnoth, it also significantly weakened the barrier between worlds, creating several rifts between them. as a result of this
+-pre-fall (not related to UtbS/IftU) idea:
+ -in the Alduin academy, Archmage <come up with name later> (the archmage boss) attempts an ambitious experiment - a large magic crystal able to open portals to any other dimension
+  -the experiment goes horribly wrong, with the crystal opening a portal directly to the Inferno
+  -the academy is destroyed and most of the mages in it are killed by the demons, except the archmage who manages to flee with teleportation magic
+-as a result of the barrier weakening, demons started entering the world through Inferno's rift, subjugating some orcs, nagas, necromancers and some others
+ -the ancient greek world was also connected to Irdya by a rift, but this time a much less stable one
+ idea a:
+  -as the rift opens, a squad of demons emerges from it, stealing the Prometheus' Heart
+ idea b:
+  -the greeks see the crystal through the portal, believing it to be the Prometheus' Heart, a long-lost ancient artifact from their world
+   -the hoplite(s) is sent to bring the crystal to Sparta
+
+older concept 2:
+-campaign mainly takes place in pre-fall Irdya
+ -the main character is from a different world, one resembling mythological ancient greece (could use the custom ivory terrain from BMR/Trinity), living in Sparta specifically
+  -main character worships greek gods, probably Ares and Athena (this should be reflected in his lines regarding religion)
+ -in the Alduin academy, Archmage <come up with name later> (the archmage boss) attempts an ambitious experiment - a large magic crystal able to open portals to any other dimension
+  -the experiment goes horribly wrong, with the crystal opening a portal directly to the Inferno, and a much smaller one to the greek world
+  -the academy is destroyed and most of the mages in it are killed by the demons, except the archmage who manages to flee with teleportation magic
+-as a result of the barrier weakening, demons started entering the world through Inferno's rift, subjugating some orcs, nagas, necromancers and some others
+ -the ancient greek world was also connected to Irdya by a rift, but this time a much less stable one
+-before the tutorial, a small prologue scenario takes place in the greek world (or maybe the alduin academy where the crystal experiment takes place)
+-dialog idea for prologue:
+ -*fade in to several mages around the crystal*
+ -random lower-level mage: "The preparation is complete, Master."
+ -archmage: "Yes, my apprentice, finally, after decades years of research, we will finally be access other worlds! The possibilities are endless! Now time to activate the crystal..."
+ -*archmage plays casting animation, screen flashes and some magic sounds are played*
+ -*two different portals open next to the crystal, one blue (to greek world) and one red (to Inferno)*
+ -random mage: "It's working!"
+ *a demon (a named boss one, perhaps even the final boss) enters the world from one of the portal*
+ -demon: "Yes, yes, the barrier between the worlds is finally broken! Irdya shall be mine!"
+ -one of the random mages: "Dear god... we opened a portal the Inferno! Your experiment doomed us all, <archmage name>!"
+ -archmage: "We have no time to waste. Quick, redirect the crystal to a different world!"
