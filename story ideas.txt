@@ -93,7 +93,7 @@ tutorial section:
  tutorial 4:
   -mentor: "Amazing, it did return! Your world is quite interesting, I must admit. But back to ..."
   -*summons three orc archers with the same image mods as shadow clone*
-  -mentor: "Your next task is to kill three shadow clone archers. While they may be illusions, the arrows they are just as dangerous as the real thing. Make sure to move out of the way once you see them aiming"
+  -mentor: "Your next task is to kill three shadow clone archers. While they may be illusions, the arrows they shoot are just as dangerous as the real thing. Make sure to move out of the way once you see them aiming"
   -narrator: "tiles where archers are aiming will be highlighted in yellow. Archers will shoot on their turn"
   once the archers are killed:
   -mentor: "Well done, let's proceed"
