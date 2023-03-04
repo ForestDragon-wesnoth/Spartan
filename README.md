@@ -1,4 +1,4 @@
-#note: it is recommended to download Spartan Music pack: https://github.com/ForestDragon-wesnoth/Spartan_Music
+Note: it is recommended to download Spartan Music pack for the best experience: https://github.com/ForestDragon-wesnoth/Spartan_Music
 
 # Spartan
 Play as a hoplite in this replayable roguelike campaign, on a quest to retrieve a powerful artifact from the dungeon depths. Features of the campaign include, but are not limited to:
