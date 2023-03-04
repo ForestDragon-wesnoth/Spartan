@@ -1,6 +1,8 @@
 --based on the mainline [harm_unit] tag lua code, but edited so it works properly with phoenix amulet
 --(renamed tag, and calls [spartan_kill] tag)
 
+--UPD: opened an issue on github about harm_unit. if it does get fixed in 1.18 I can switch back to normal harm_unit tags
+
 local helper = wesnoth.require "helper"
 local utils = wesnoth.require "wml-utils"
 local wml_actions = wesnoth.wml_actions

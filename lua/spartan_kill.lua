@@ -5,8 +5,6 @@ local location_set = wesnoth.require "location_set"
 
 local kill_recursion_preventer = location_set.create()
 
-debug_utils = wesnoth.require "~add-ons/1The_Great_Steppe_Era/lua/debug_utils.lua"
-
 function wesnoth.wml_actions.spartan_kill(cfg)
 	local number_killed = 0
 	local secondary_unit = wml.get_child(cfg, "secondary_unit")
@@ -112,8 +110,6 @@ function wesnoth.wml_actions.spartan_kill(cfg)
 		if #unit_test_if_still_alive > 0 then
 			unit_test_hp = unit_test_if_still_alive[1].hitpoints
 		end
-
---		debug_utils.dbms(unit_test_if_still_alive, true, "killed unit", true)
 
 		if unit.valid == "map" and unit_test_hp < 1 then unit:erase() end
 
