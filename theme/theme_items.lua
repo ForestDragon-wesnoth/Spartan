@@ -39,7 +39,7 @@ function wesnoth.interface.game_display.goldincome()
 
 end
 
-function wesnoth.interface.game_display.metal()
+function wesnoth.interface.game_display.killstreak()
 	-- Display for the viewing side, not the current side
 	local viewing_side = wesnoth.interface.get_viewing_side()
 
