@@ -1,5 +1,26 @@
 local _ = wesnoth.textdomain "wesnoth-Hoplite"
 
+--TODO: maybe give Dept
+
+function wesnoth.interface.game_display.depth()
+	-- Display for the viewing side, not the current side
+	local viewing_side = wesnoth.interface.get_viewing_side()
+
+	local side_proxy = wesnoth.sides[viewing_side]
+	local val = wml.variables["hoplite_depth"] or 0
+	local str = _"Depth".." "..val
+	--if (viewing_side ~= wesnoth.current.side) then
+	--	str = "<span color='" .. colors.gray .. "'>" .. str .. "</span>"
+	--end
+
+	return { { 'element', {
+		text = str,
+		tooltip = _"<span color='#cc9900'><b>Depth</b></span>: \nThe further you go in the cave, the stronger and more numerous the enemies will become. Some specific depths are guaranteed to have a boss fight."
+
+	} } }
+
+end
+
 function wesnoth.interface.game_display.energy()
 	-- Display for the viewing side, not the current side
 	local viewing_side = wesnoth.interface.get_viewing_side()
@@ -14,7 +35,7 @@ function wesnoth.interface.game_display.energy()
 
 	return { { 'element', {
 		text = str,
-		tooltip = "<span color='#ffff99'><b>Energy</b></span>: \nUsed for leaping, as well as some upgrades"
+		tooltip = _"<span color='#ffff99'><b>Energy</b></span>: \nUsed for leaping, as well as some upgrades"
 
 	} } }
 
@@ -52,7 +73,7 @@ function wesnoth.interface.game_display.orbs()
 
 	return { { 'element', {
 		text = str,
-		tooltip = "<span color='#a456ff'><b>Orbs of Insight</b></span>: \nThese mysterious orbs can be used to reveal hints for hidden achievements, or spent as currency in a certain rare location. Both the hints and the orb itself carry over between playthroughs."
+		tooltip = _"<span color='#a456ff'><b>Orbs of Insight</b></span>: \nThese mysterious orbs can be used to reveal hints for hidden achievements, or spent as currency in a certain rare location. Both the hints and the orb itself carry over between playthroughs."
 
 	} } }
 
