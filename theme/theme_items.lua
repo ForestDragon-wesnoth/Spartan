@@ -13,7 +13,7 @@ function wesnoth.interface.game_display.killstreak()
 
 	return { { 'element', {
 		text = str,
-		tooltip = _"<span color='#ff5050'><b>Killstreak</b></span>: \nAmount of units killed in a row. Important for some upgrades, as well as achievements like Frenzy"
+		tooltip = _"<span color='#ff5050'><b>Killstreak</b></span>: \nAmount of enemies killed in a row (resets if you spend a turn without killing enemies or hitting bosses). Important for some upgrades, as well as achievements like Frenzy"
 
 	} } }
 
