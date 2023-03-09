@@ -44,16 +44,15 @@ function wesnoth.interface.game_display.metal()
 	local viewing_side = wesnoth.interface.get_viewing_side()
 
 	local side_proxy = wesnoth.sides[viewing_side]
-	local val = side_proxy["variables"]["metal_reserve"] or 0
-	local prod = production (viewing_side, "metal")
-	local str = val .. " (+" .. prod .. ")"
+	local val = wml.variables["killstreak"..wesnoth.interface.get_viewing_side()] or 0
+	local str = val
 	--if (viewing_side ~= wesnoth.current.side) then
 	--	str = "<span color='" .. colors.gray .. "'>" .. str .. "</span>"
 	--end
 
 	return { { 'element', {
 		text = str,
-		tooltip = "<b>Metal</b>: "..val.."\n<b>Metal production</b>: +" .. prod .. "\nMetal is needed for most of attacks. To get more metal, capture metal factories"
+		tooltip = "<b>Killstreak</b>: \nAmount of units killed in a row. Important for some upgrades, as well as achievements like Frenzy"
 
 	} } }
 
