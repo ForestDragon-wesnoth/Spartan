@@ -1,11 +1,31 @@
 local _ = wesnoth.textdomain "wesnoth-Hoplite"
 
+function wesnoth.interface.game_display.energy()
+	-- Display for the viewing side, not the current side
+	local viewing_side = wesnoth.interface.get_viewing_side()
+
+	local side_proxy = wesnoth.sides[viewing_side]
+	local val = wml.variables["hoplite_energy"..viewing_side] or 0
+	local val2 = wml.variables["hoplite_maxenergy"..viewing_side] or 0
+	local str = val.."/"..val2
+	--if (viewing_side ~= wesnoth.current.side) then
+	--	str = "<span color='" .. colors.gray .. "'>" .. str .. "</span>"
+	--end
+
+	return { { 'element', {
+		text = str,
+		tooltip = "<span color='#ffff99'><b>Energy</b></span>: \nUsed for leaping, as well as some upgrades"
+
+	} } }
+
+end
+
 function wesnoth.interface.game_display.killstreak()
 	-- Display for the viewing side, not the current side
 	local viewing_side = wesnoth.interface.get_viewing_side()
 
 	local side_proxy = wesnoth.sides[viewing_side]
-	local val = wml.variables["killstreak"..wesnoth.interface.get_viewing_side()] or 0
+	local val = wml.variables["killstreak"..viewing_side] or 0
 	local str = val
 	--if (viewing_side ~= wesnoth.current.side) then
 	--	str = "<span color='" .. colors.gray .. "'>" .. str .. "</span>"
@@ -24,7 +44,7 @@ function wesnoth.interface.game_display.orbs()
 	local viewing_side = wesnoth.interface.get_viewing_side()
 
 	local side_proxy = wesnoth.sides[viewing_side]
-	local val = wml.variables["spartan_orbs_of_insight"..wesnoth.interface.get_viewing_side()] or 0
+	local val = wml.variables["spartan_orbs_of_insight"..viewing_side] or 0
 	local str = val
 	--if (viewing_side ~= wesnoth.current.side) then
 	--	str = "<span color='" .. colors.gray .. "'>" .. str .. "</span>"
