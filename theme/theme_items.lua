@@ -15,7 +15,7 @@ function wesnoth.interface.game_display.depth()
 
 	return { { 'element', {
 		text = str,
-		tooltip = _"<span color='#cc9900'><b>Depth</b></span>: \nThe further you go in the cave, the stronger and more numerous the enemies will become. Some specific depths are guaranteed to have a boss fight."
+		tooltip = _"<span color='#cc9900'><b>Depth</b></span>: \nThe further you go in the cave, the stronger and more numerous the enemies will become. Some specific depths are guaranteed to have a boss fight. Some biomes only become available after a certain depth."
 
 	} } }
 
@@ -35,7 +35,7 @@ function wesnoth.interface.game_display.energy()
 
 	return { { 'element', {
 		text = str,
-		tooltip = _"<span color='#ffff99'><b>Energy</b></span>: \nUsed for leaping, as well as some upgrades"
+		tooltip = _"<span color='#ffff99'><b>Energy</b></span>: \nUsed for leaping, as well as some upgrades. You recover some energy when killing enemies or hitting bosses, fully recover energy when moving to the next depth, and some upgrades allow you to recover energy in other ways."
 
 	} } }
 
