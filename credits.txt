@@ -1,3 +1,10 @@
 Music (Kreepor/March of the Droids/Burning and a few other) by Matt McFarland (from http://www.mattmcfarland.com/tracks/), to quote the composer "I make Royalty free music with ZERO licensing fees that can be used commercially. Feel free to download at my website." some other music also taken from HalcyonFalconX
 
 Most images borrowed from either mainline wesnoth or addons.
+
+People working on/helping with with the add-on:
+-creator: ForestDragon
+-coder: ForestDragon
+-beta playtesting: Rovik, inferno8, Smiley J, Tezereth, Jeremias
+-help with dialog: Smiley J
+-maps: ForestDragon, Rovik
