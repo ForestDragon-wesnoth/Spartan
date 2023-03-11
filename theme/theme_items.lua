@@ -1,6 +1,14 @@
 local _ = wesnoth.textdomain "wesnoth-Hoplite"
 
---TODO: maybe give Dept
+--unfortunately trying to change icons via Lua failed
+--function wesnoth.interface.game_display.label()
+--	return { { 'element', {
+--		icon= "misc/depth_cave.png",
+--	} } }
+--
+--end
+
+--TODO: todo: make depth tooltip also show some info about current biome
 
 function wesnoth.interface.game_display.depth()
 	-- Display for the viewing side, not the current side
