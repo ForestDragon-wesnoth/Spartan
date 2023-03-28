@@ -8,3 +8,4 @@ People working on/helping with with the add-on:
 -beta playtesting: Rovik, inferno8, Smiley J, Tezereth, Jeremias, dwarftough (helped me with optimizing the code)
 -help with dialog: Smiley J
 -maps: ForestDragon, Rovik
+-some custom UI icons: Mechanical
