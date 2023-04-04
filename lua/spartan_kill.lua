@@ -45,7 +45,9 @@ function wesnoth.wml_actions.spartan_kill(cfg)
 		end
 
 --SPARTAN EDITED CODE HERE:
-		local unit_test_if_still_alive = wesnoth.units.find_on_map({ id = unit.id})
+
+
+		local unit_test_if_still_alive = wesnoth.units.find_on_map({ x = death_loc.x , y = death_loc.y})
 
 		local unit_test_hp = 0
 
@@ -105,7 +107,7 @@ function wesnoth.wml_actions.spartan_kill(cfg)
 
 --SPARTAN EDITED CODE PART 2 HERE:
 
-		unit_test_if_still_alive = wesnoth.units.find_on_map({ id = unit.id})
+		unit_test_if_still_alive = wesnoth.units.find_on_map({ x = death_loc.x , y = death_loc.y})
 
 		if #unit_test_if_still_alive > 0 then
 			unit_test_hp = unit_test_if_still_alive[1].hitpoints
