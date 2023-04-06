@@ -2,6 +2,8 @@ Music (Kreepor/March of the Droids/Burning and a few other) by Matt McFarland (f
 
 Most images borrowed from either mainline wesnoth or addons.
 
+TODO: closer to release, copy some of this to the in-game credits (especially the donations category)
+
 People working on/helping with with the add-on:
 -creator: ForestDragon
 -coder: ForestDragon
@@ -9,3 +11,9 @@ People working on/helping with with the add-on:
 -help with dialog: Smiley J
 -maps: ForestDragon, Rovik
 -some custom UI icons: Mechanical
+-donations:
+ -first patron: Jeremias
+ -drake burner tier:
+ -fire drake tier:
+ -inferno drake tier: Jeremias (donated $12)
+ -armageddon drake tier: 
