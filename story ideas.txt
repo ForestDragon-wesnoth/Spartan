@@ -15,30 +15,30 @@ story plan A:
   -*archmage plays casting animation, screen flashes and some magic sounds are played*
   -*red portal opens*
   -random mage: "It's working!"
-  *Veznan (final boss demon of the campaign) enters the world from the portal, not sure about sprite yet*
-  -Veznan: "Yes, yes, the barrier between the worlds is finally broken! Irdya shall soon belong to me! Kneel before your future sovereign - Veznan, Overlord of the Ninth Circle of Inferno!"
+  *<insert final boss name here> (final boss demon of the campaign) enters the world from the portal, not sure about sprite yet*
+  -<insert final boss name here>: "Yes, yes, the barrier between the worlds is finally broken! Irdya shall soon belong to me! Kneel before your future sovereign - <insert final boss name here>, Overlord of the Ninth Circle of Inferno!"
   -one of the random higher-level mages: "Dear god... we opened a portal the Inferno! Your experiment doomed us all, Arcanus!"
   -archmage: "Damn it! We have no time to waste. Quick, redirect the Gates to a different world!"
   -*portal changes color from red to blue*
   -*hoplite(s) enter(s) world from the portal*
   -sp: hoplite: "By Ares! Where... am I? What is happening?"
   -mp: hoplite: "By Ares! Where... are we? What is happening?"
-  -Veznan: "You are merely delaying the inevitable, foolish mortals!"
-  -*Veznan instakills some random mages*
+  -<insert final boss name here>: "You are merely delaying the inevitable, foolish mortals!"
+  -*<insert final boss name here> instakills some random mages*
   -archmage: "(to the hoplite) We can't stay here, quick, we must teleport outside the cave!"
   -*archmage plays casting animation*
 
 
-  after everyone except archmage Arcanus and Veznan have either fled or are dead:
-  -Veznan: "The others were worthless to me, but you Arcanus, you will make quite a useful puppet."
+  after everyone except archmage Arcanus and <insert final boss name here> have either fled or are dead:
+  -<insert final boss name here>: "The others were worthless to me, but you Arcanus, you will make quite a useful puppet."
   -archmage: "No, no, what are you..."
-  -Veznan: "OBEY ME MORTAL!!!"#TODO: maybe add some kind of translated spell using Dugi's blackspeech generator
+  -<insert final boss name here>: "OBEY ME MORTAL!!!"#TODO: maybe add some kind of translated spell using Dugi's blackspeech generator
   -*magic sounds/maybe a flash, ominous music change*
   -*500ms delay*
-  -Veznan: "Now, be a good dog and reopen the portal to Inferno."
+  -<insert final boss name here>: "Now, be a good dog and reopen the portal to Inferno."
   -archmage: "Yes... my... master..."
   -*portal changes color to red, some demon warriors appear from it*
-  -Veznan: "Once enough of my armies arrive here, my glorious conquest shall begin!"
+  -<insert final boss name here>: "Once enough of my armies arrive here, my glorious conquest shall begin!"
 
 
 
@@ -120,14 +120,14 @@ tutorial section:
  TODO:
 
 Changes in the actual campaign:
-1.the prometheus heart is scrapped for now in this version. new objective: "kill Veznan and return to your world"
+1.the prometheus heart is scrapped for now in this version. new objective: "kill <insert final boss name here> and return to your world"
 2.shaxtal archmage fight is scrapped, the depth 15 fight is with the brainwashed archmage instead. he now has "Archmage Arcanus" as his name
 3.upgrades tied to shaxtal archmage should be tied to something else instead
 
 
 WIP:
 
-idea for post-Veznan depths (if I do decide to include steelhive units in the add-on):
+idea for post-<insert final boss name here> depths (if I do decide to include steelhive units in the add-on):
 elizabeth: "Though you could return now, I sense there is more going on in this cave than first seems... You could leave now, or you can follow me, and see how deep the rabbit hole goes..."
 
 true final boss twist idea:
@@ -135,7 +135,10 @@ true final boss twist idea:
 -mentor: "Truth is, I only needed your help to get past the cave's barrier to continue my work on the Steelhive. With this forgotten technology, I shall be unstoppable! The world shall be mine!"
 -*mentor enters some kind of powerful mech either from Steelhive or archaic era*
 
+
 even better secret boss idea: the Mysterious Merchant could work a lot better as a true final boss
+-maybe he has some ulterior motive for collecting lots of Orbs of Insight
+-if the player runs into the merchant after beating him, he could say something like "Don't worry, I don't hold grudges."
 
 older WIP story concept
 -story takes place either late pre-fall or early post-fall (decide later whichever is better)
