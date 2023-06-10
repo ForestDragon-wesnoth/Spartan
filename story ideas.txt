@@ -61,7 +61,7 @@ tutorial section:
  sp version of tutorial:
  tutorial 1:
  -*summons 3 quintains, they are 10hp units with shortrange 5-1 melee*
- -mentor: "Your first test is to destroy these two quintains."
+ -mentor: "Your first test is to destroy these three quintains."
  -*narrator message explaining some basic mechanics of the campaign, copied from info menu*
  after quintains are all killed:
  -hoplite: "That was easy. Hardly anything compared to the training we had back home."
@@ -91,7 +91,7 @@ tutorial section:
    -mentor: "Exhausting yourself by jumping all over the place won't do you any good. I'll restore your energy with magic this time, but you won't have that luxury in the caves..."
    -*restores energy*
  tutorial 4:
-  -mentor: "Amazing, it did return! Your world is quite interesting, I must admit. But back to ..."
+  -mentor: "Amazing, it did return! Your world is quite interesting, I must admit. But back to the test..."
   -*summons three orc archers with the same image mods as shadow clone*
   -mentor: "Your next task is to kill three shadow clone archers. While they may be illusions, the arrows they shoot are just as dangerous as the real thing. Make sure to move out of the way once you see them aiming"
   -narrator: "tiles where archers are aiming will be highlighted in yellow. Archers will shoot on their turn"
@@ -108,6 +108,7 @@ tutorial section:
   -mentor: "You actually managed to beat him head-on? I must admit, you surpassed even my expectations."
  tutorial 6:
   TODO: make this tutorial part about swapping/controlling rats
+  (maybe rat in a hallway with side paths, and a ranged enemy at the end. if you don't control the rat, it gets kill and a new one is spawned at the start. if you control the rat and make it move ot the side, it can kill the ranged enemy)
 
  final tutorial:
   -mentor: "Forges allow you to choose from a wide variety of powerful upgrades."
