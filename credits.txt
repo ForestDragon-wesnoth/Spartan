@@ -12,8 +12,8 @@ People working on/helping with with the add-on:
 -maps: ForestDragon, Rovik
 -some custom UI icons: Mechanical
 -donations:
- -first patron: Jeremias
+ -first patron: Jeremias (aka Anekron)
  -drake burner tier: 
  -fire drake tier: inferno8 (donated $6 total)
- -inferno drake tier: Jeremias (donated $12 total)
+ -inferno drake tier: Jeremias (aka Anekron. donated $12 total)
  -armageddon drake tier:
