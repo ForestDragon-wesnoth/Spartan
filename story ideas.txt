@@ -1,3 +1,168 @@
+------------------------------------------------------------------------------------
+WARNING: MASSIVE SPOILERS AHEAD
+------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------
+YOU HAVE BEEN WARNED
+------------------------------------------------------------------------------------
+
+Story structure concept (written with help from Mechanical)
+
+Prologue:
+1. takes place in Spartan's home world, cutscene where he and a squad of hoplites fights the Main Antagonist
+2. main antagonist creates a portal and flees, one (or two in multiplayer) hoplite(s) aka main character(s) chase the antagonist, and just barely get in
+3. the cave is actually the main antagonist's old lair
+4. protagonist wakes up in Irdya, mentor character (maybe saurian oracle) explains the situation
+5. tutorial starts, then protagonist goes into the cave
+
+
+Tutorial:
+-mentor character could be a Saurian Oracle maybe
+-mentor could secretly be controlled by The Merchant, to inform the hoplite about the "main antagonist" puppet and thus start the quest
+
+Time Loop:
+-campaign being replayed multiple times is actually canon. the cave is stuck in an endless time loop, that resets when the Spartan either dies or defeats the "final boss"
+-Most characters do not remember what happens in previous playthroughs, however, the Merchant does
+
+Artifact:
+-instead of the current system of "you take artifact at depth 40 and can continue with it", you will get the artifact right in the final boss room
+-artifact is used by the Main Antagonist for opening portals and summoning minions from them (might even add a robot world for later biomes)
+-UPD: maybe even remove the artifact altogether, or replace it with some other way to get a +50 Energy buff
+
+"Main Antagonist" (most likely female):
+-race/origin concept:
+ -she is some sort of living statue made out of marble, made alive by magic in Irdya
+ -her creator is someone able to travel between worlds
+ -she tries to find her creator, then the Merchant tricks her into a pact
+  -she gets power/ability to travel between worlds/open portals, but the Merchant mind-controls her
+ -twist could be that the merchant has secretly killed her creator some time before the events of the campaign
+ -she then invades Sparta since the Merchant influenced her to do, setting the events of the campaign in motion
+-very good at magic, able to mind control large amounts of enemies
+-goal is conquering Irdya and eventually other worlds
+-can be fought in depth 40, or at some intervals later on
+ -if the hoplite fights the boss later, he does get more upgrades, but in return the boss gains stronger stats (maybe even some new tricks later on) too
+-fight has multiple phases
+-is unaware of the Merchant's involvement in the whole situation
+-a large of amount of his power is secretly given by the Merchant
+-idea:
+ -if the Spartan goes deep enough in the caves, he may run into the Main Antagonist, and convince the antagonist about the time loop
+  -after that, Main Antagonist loses much of his/her powers, but ends up switching sides and joins the Spartan as a companion
+   -enemies in the cave become mind-controlled directly by the Merchant instead
+   -motivation for switching sides could be that Merchant secretly killed her creator some time before the story begins
+
+The Merchant:
+-the merchant is secretly the true final boss at depth 100, has extremely strong stats/abilities/ranged attacks, is multiphase, similarly to the normal final boss fight
+-he is actually responsible for the time loop
+-Orbs of Insight are harvested via kills, concentrating the dead unit's power (plus maybe some other factor related to the cave itself?), so the purpose of the time loop is to have the Spartan kill enemies/bosses over and over for the Merchant, so he doesn't need to put in the effort himself
+-acts friendly with the Spartan (for some time), sells various things in return for orbs
+-dialog from previous merchant lines that should be later moved to the end, as part of the big reveal:
+
+            [message]
+                speaker=merchant
+                message=_"Do you perhaps notice how, when you enter the cave, sometimes <span color='#a456ff'>Orbs of Insight</span> just appear out of thin air into your pocket?"
+            [/message]
+            [message]
+                id=Hoplite,Hoplite2
+                message=_"Now that you mention it, I did notice that..."
+            [/message]
+            [message]
+                speaker=merchant
+                message=_"Time is not the simple one-directional flow many think it is, certainly not in this place."
+            [/message]
+            {IF_VAR spartan_orbshop_data1.visited_across_playthroughs greater_than 5 (
+            [then]
+            [message]
+                id=Hoplite
+                message=_"I wonder... how many times have we 'met for the first time'?"
+            [/message]
+            [message]
+                speaker=merchant
+                message=_"It is precisely $spartan_orbshop_data1.visited_across_playthroughs| times, <span size='small'><i>at least in this subcategory of timelines</i></span>."
+            [/message]
+            #ifdef MULTIPLAYER
+            [message]
+                id=Hoplite2
+                message=_"And what about me?"
+            [/message]
+            [message]
+                speaker=merchant
+                message=_"$spartan_orbshop_data2.visited_across_playthroughs| times in your case."
+            [/message]
+            #endif
+            [message]
+                id=Hoplite
+                message=_"Wow... that is quite something... and how many orbs have I spent in your shop total?"
+            [/message]
+            [message]
+                speaker=merchant
+                message=_"It is exactly $spartan_orbshop_data1.orbs_spent| orbs."
+            [/message]
+            #ifdef MULTIPLAYER
+            [message]
+                id=Hoplite2
+                message=_"And how much did I spend?"
+            [/message]
+            [message]
+                speaker=merchant
+                message=_"$spartan_orbshop_data2.orbs_spent| orbs in your case."
+            [/message]
+            #endif
+
+            [if]
+            [have_unit]
+                id=Algadur
+            [/have_unit]
+            [then]
+            [message]
+                speaker=Algadur
+                message=_"I must admit, I'm... confused about tis' whole thing."
+            [/message]
+            [message]
+                id=Hoplite,Hoplite2
+                message=_"Can't say I fully understand what is happening either, but it seems I already met this 'merchant' before, in a past life of sorts."
+            [/message]
+            [/then]
+            [/if]
+
+            #scrapped merchant line, maybe might reuse later:
+
+            message=_"It's hard to explain to most mortals, but let's just say we both did, and we did not..."
+
+
+
+Previous notes (some still relevant, like tutorial):
+
 spartan reworked story concept (could add the intro as part of the tutorial maybe):
 
 story plan A:
@@ -114,6 +279,7 @@ tutorial section:
   -mentor: "Forges allow you to choose from a wide variety of powerful upgrades."
   -*hoplite uses a forge*
   -*forge delay is set to -1 to ensure total numnber of upgrades stays same regardless of whether player starts at tutorial or depth 1*
+
 
 
 

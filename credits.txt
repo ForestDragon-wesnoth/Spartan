@@ -11,6 +11,7 @@ People working on/helping with with the add-on:
 -help with dialog: Smiley J
 -maps: ForestDragon, Rovik
 -some custom UI icons: Mechanical
+-story design help: Mechanical
 -donations:
  -first patron: Jeremias (aka Anekron)
  -drake burner tier: 
