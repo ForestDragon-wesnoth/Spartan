@@ -86,6 +86,9 @@ The Merchant:
 -he is actually responsible for the time loop
 -Orbs of Insight are harvested via kills, concentrating the dead unit's power (plus maybe some other factor related to the cave itself?), so the purpose of the time loop is to have the Spartan kill enemies/bosses over and over for the Merchant, so he doesn't need to put in the effort himself
 -acts friendly with the Spartan (for some time), sells various things in return for orbs
+-the Mentor from the tutorial is secretly The Merchant himself in disguise
+ -to get the point across, when the secret is revealed, he could transform back and forth in from of the Spartan in the true ending path
+  -like "There was never a [INSERT_MENTOR_NAME] this whole time, only me."
 -dialog from previous merchant lines that should be later moved to the end, as part of the big reveal:
 
             [message]
