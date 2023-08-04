@@ -86,3 +86,102 @@ function wesnoth.interface.game_display.orbs()
 	} } }
 
 end
+
+function wesnoth.interface.game_display.otherinfo()
+	-- Display for the viewing side, not the current side
+	local viewing_side = wesnoth.interface.get_viewing_side()
+
+	local side_proxy = wesnoth.sides[viewing_side]
+
+	local str = _"Misc Info"
+
+	local str2 = _"<span color='#ffff99'><b>Misc Information</b></span> (like upgrade cooldowns or healing potions): \n"
+
+	local str2_orig = str2
+
+
+	--TODO: add if statement
+
+	if wml.variables["healpotion_capacity"..viewing_side] ~= nil then
+		str2 = str2.._"Healing potions in inventory: <span color='#ffff99'>"..wml.variables["healpotions_in_inventory"..viewing_side].."/"..wml.variables["healpotion_capacity"..viewing_side].."</span>\n"
+	end
+
+	if wml.variables["phoenixamulet_unlocked"..viewing_side] ~= nil then
+    	if wml.variables["hoplite_revive_cooldown"..viewing_side] > 0 then
+    		str2 = str2.._"Phoenix Amulet cooldown: <span color='#ffff99'>"..wml.variables["hoplite_revive_cooldown"..viewing_side].."</span> depths".."\n"
+    	else 
+    		str2 = str2.._"Phoenix Amulet: <span color='#ffff99'>Ready</span>".."\n"
+    	end
+	end
+
+	if wml.variables["wizardbeam_unlocked"..viewing_side] ~= nil then
+    	if wml.variables["hoplite_wizardbeam_cooldown"..viewing_side] > 0 then
+    		str2 = str2.._"Flame Blast cooldown: <span color='#ffff99'>"..wml.variables["hoplite_wizardbeam_cooldown"..viewing_side].."</span> turns".."\n"
+    	else 
+    		str2 = str2.._"Flame Blast: <span color='#ffff99'>Ready</span>".."\n"
+    	end
+	end
+
+	if wml.variables["adrenaline_unlocked"..viewing_side] ~= nil then
+    	if wml.variables["hoplite_adrenalinerush_cooldown"..viewing_side] > 0 then
+    		str2 = str2.._"Adrenaline Rush cooldown: <span color='#ffff99'>"..wml.variables["hoplite_adrenalinerush_cooldown"..viewing_side].."</span> depth".."\n"
+    	else 
+    		str2 = str2.._"Adrenaline Rush: <span color='#ffff99'>Ready</span>".."\n"
+    	end
+	end
+
+
+	if wml.variables["rat_legion_unlocked"..viewing_side] ~= nil then
+    	if wml.variables["rat_cooldown"..viewing_side] > 0 then
+    		str2 = str2.._"Rat Legion cooldown: <span color='#ffff99'>"..wml.variables["rat_cooldown"..viewing_side].."</span> turns".."\n"
+    	else 
+    		str2 = str2.._"Rat Legion cooldown: <span color='#ffff99'>Ready</span>".."\n"
+    	end
+	end
+
+	if wml.variables["shadowclone_unlocked"..viewing_side] ~= nil then
+    	if wml.variables["hoplite_shadowclone_cooldown"..viewing_side] > 0 then
+    		str2 = str2.._"Shadow Clone cooldown: <span color='#ffff99'>"..wml.variables["hoplite_shadowclone_cooldown"..viewing_side].."</span> depths".."\n"
+    	else 
+    		str2 = str2.._"Shadow Clone cooldown: <span color='#ffff99'>Ready</span>".."\n"
+    	end
+	end
+
+	if wml.variables["summonedarcher_unlocked"..viewing_side] ~= nil then
+    	if wml.variables["hoplite_summonedarcher_cooldown"..viewing_side] > 0 then
+    		str2 = str2.._"Spirit Archer cooldown: <span color='#ffff99'>"..wml.variables["hoplite_summonedarcher_cooldown"..viewing_side].."</span> depths".."\n"
+    	else 
+    		str2 = str2.._"Spirit Archer cooldown: <span color='#ffff99'>Ready</span>".."\n"
+    	end
+	end
+
+	if wml.variables["Algadur_stored.id"] ~= nil then
+    	if wml.variables["algadur_cooldown"] > 0 then
+    		str2 = str2.._"Algadur return cooldown: <span color='#ffff99'>"..wml.variables["algadur_cooldown"].."</span> depths".."\n"
+    	else 
+    		str2 = str2.._"Algadur return cooldown: <span color='#ffff99'>Ready</span>".."\n"
+    	end
+	end
+
+	if wml.variables["Elizabeth_stored.id"] ~= nil then
+    	if wml.variables["elizabeth_cooldown"] > 0 then
+    		str2 = str2.._"Elizabeth return cooldown: <span color='#ffff99'>"..wml.variables["elizabeth_cooldown"].."</span> depths".."\n"
+    	else 
+    		str2 = str2.._"Elizabeth return cooldown: <span color='#ffff99'>Ready</span>".."\n"
+    	end
+	end
+
+	if str2 == str2_orig then
+    	str2 = str2.._"You don't yet have upgrades with a cooldown listed in this menu.".."\n"
+	end
+
+
+	--TODO:
+    	--add Algadur/Elizabeth return cooldowns if either of them is stored
+
+	return { { 'element', {
+		text = str,
+		tooltip = str2
+	} } }
+
+end
