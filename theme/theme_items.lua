@@ -102,7 +102,7 @@ function wesnoth.interface.game_display.otherinfo()
 
 	--TODO: add if statement
 
-	if wml.variables["healpotion_capacity"..viewing_side] ~= nil then
+	if wml.variables["healpotionI_unlocked"..viewing_side] ~= nil then
 		str2 = str2.._"Healing potions in inventory: <span color='#ffff99'>"..wml.variables["healpotions_in_inventory"..viewing_side].."/"..wml.variables["healpotion_capacity"..viewing_side].."</span>\n"
 	end
 
