@@ -37,14 +37,31 @@ function wesnoth.interface.game_display.energy()
 	local val = wml.variables["hoplite_energy"..viewing_side] or 0
 	local val2 = wml.variables["hoplite_maxenergy"..viewing_side] or 0
 	local str = val.."/"..val2
+	local str2 = _"<span color='#ffff99'><b>Energy</b></span>: \nUsed for leaping, as well as some upgrades. You recover some energy when killing enemies or hitting bosses, fully recover energy when moving to the next depth, and some upgrades allow you to recover energy in other ways."
+
+	local mp_otherside
+	if viewing_side == 2 then
+        mp_otherside = 1
+	else 
+        mp_otherside = 2
+	end
+
+	local other_val = wml.variables["hoplite_energy"..mp_otherside] or 0
+	local other_val2 = wml.variables["hoplite_maxenergy"..mp_otherside] or 0
+	local other_str = other_val.."/"..other_val2
+
+	if wml.variables["hoplite_multiplayer"] ~= nil then
+		str2 = str2.."\n \n Other Player's Energy: <span color='#ffff99'>"..other_str.."</span>"
+	end
+
+
 	--if (viewing_side ~= wesnoth.current.side) then
 	--	str = "<span color='" .. colors.gray .. "'>" .. str .. "</span>"
 	--end
 
 	return { { 'element', {
 		text = str,
-		tooltip = _"<span color='#ffff99'><b>Energy</b></span>: \nUsed for leaping, as well as some upgrades. You recover some energy when killing enemies or hitting bosses, fully recover energy when moving to the next depth, and some upgrades allow you to recover energy in other ways."
-
+		tooltip = str2
 	} } }
 
 end
@@ -60,10 +77,24 @@ function wesnoth.interface.game_display.killstreak()
 	--	str = "<span color='" .. colors.gray .. "'>" .. str .. "</span>"
 	--end
 
+	local str2 = _"<span color='#ff5050'><b>Killstreak</b></span>: \nAmount of enemies killed in a row (resets if you spend a turn without killing enemies or hitting bosses). Important for some upgrades, as well as achievements like Frenzy"
+
+	local mp_otherside
+	if viewing_side == 2 then
+        mp_otherside = 1
+	else 
+        mp_otherside = 2
+	end
+
+	local other_val = wml.variables["killstreak"..mp_otherside] or 0
+
+	if wml.variables["hoplite_multiplayer"] ~= nil then
+		str2 = str2.."\n \n Other Player's Killstreak: <span color='#ffff99'>"..other_val.."</span>"
+	end
+
 	return { { 'element', {
 		text = str,
-		tooltip = _"<span color='#ff5050'><b>Killstreak</b></span>: \nAmount of enemies killed in a row (resets if you spend a turn without killing enemies or hitting bosses). Important for some upgrades, as well as achievements like Frenzy"
-
+		tooltip = str2
 	} } }
 
 end
@@ -79,9 +110,24 @@ function wesnoth.interface.game_display.orbs()
 	--	str = "<span color='" .. colors.gray .. "'>" .. str .. "</span>"
 	--end
 
+	local str2 = _"<span color='#a456ff'><b>Orbs of Insight</b></span>: \nThese mysterious orbs can be used to reveal hints for hidden achievements, or spent as currency in a certain rare location. Both the hints and the orb itself carry over between playthroughs."
+
+	local mp_otherside
+	if viewing_side == 2 then
+        mp_otherside = 1
+	else 
+        mp_otherside = 2
+	end
+
+	local other_val = wml.variables["spartan_orbs_of_insight"..mp_otherside] or 0
+
+	if wml.variables["hoplite_multiplayer"] ~= nil then
+		str2 = str2.."\n \n Other Player's Orbs: <span color='#ffff99'>"..other_val.."</span>"
+	end
+
 	return { { 'element', {
 		text = str,
-		tooltip = _"<span color='#a456ff'><b>Orbs of Insight</b></span>: \nThese mysterious orbs can be used to reveal hints for hidden achievements, or spent as currency in a certain rare location. Both the hints and the orb itself carry over between playthroughs."
+		tooltip = str2
 
 	} } }
 
