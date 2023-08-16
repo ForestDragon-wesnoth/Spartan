@@ -49,7 +49,7 @@ Prologue:
 
 Tutorial:
 -mentor character could be a Saurian Oracle maybe
--mentor could secretly be controlled by The Merchant, to inform the hoplite about the "main antagonist" puppet and thus start the quest
+-mentor is secretly The Merchant in disguise, going to inform the hoplite about the "main antagonist" puppet and thus start the quest
 
 Time Loop:
 -campaign being replayed multiple times is actually canon. the cave is stuck in an endless time loop, that resets when the Spartan either dies or defeats the "final boss"
@@ -80,6 +80,36 @@ Artifact:
   -after that, Main Antagonist loses much of his/her powers, but ends up switching sides and joins the Spartan as a companion
    -enemies in the cave become mind-controlled directly by the Merchant instead
    -motivation for switching sides could be that Merchant secretly killed her creator some time before the story begins
+
+
+True Ending steps approximate plan:
+potential required steps to get true ending (haven't fully decided on the order yet though):
+-sparing archmage Arcanus's life with a healing potion while he is heavily wounded
+ -should definitely be a requirement on final playthrough at least, but some early steps should require it too
+ -maybe if archmage is not spared, Merchant convinces Elizabeth to take revenge on Odysseus during a true ending step, preventing the true ending
+-finding Mallion's workshop, maybe with a potion recipe and some hints about the time cycle, Galatea and the Merchant
+ -workshop should be somewhere after depth 40
+-using Orbs of Insight (spending at least 10 or even more) to brew a special potion (maybe name it something like Chronos Potion)
+ -the potion allows the main character to "remember" things from previous playthroughs
+  -will require a lot of adjustments to dialog
+   -but to make this rewrite a bit easier, the main character could decide early on to pretend like he does not remember past events unless necessary, to avoid blowing his cover and being noticed by whoever is the true villain (aka the Merchant)
+    -when talking to the Merchant in this mode, the Spartan will be suspicious that Merchant also has memory between cycles, and intentionally plays dumb (pretending not to understand that the merchant also remembers past playthroughs)
+-having both Algadur and Elizabeth could be a requirement (some steps could require one of them)
+-discovering that Galatea is being manipulated by the Merchant
+-while under the effects of the potion, and after completing some other steps, in the "final boss fight", after completing other steps, convince Galatea that she has been tricked by the Merchant
+ -she switched sides and becomes a companion, but now much weaker since she no longer has powers granted by the Merchant
+  -enemies now serve the Merchant directly instead
+  -Merchant shop levels no longer have the Merchant in them, either
+   a) shops now spawn enemies
+   b) shops are just eerily empty
+-with Galatea's help, unlock access to some very late-game depths, maybe post-depth-80 or post-depth-90 or so
+ -that area will have the toughest new lategame biome(s), with the Merchant's strongest minions there
+-epic boss fight against the Merchant himself
+ -with the merchant killed or banished from Irdya, the time loop ends and the campaign ends for real
+ -Galatea maybe also finds Mallion's heart. I could maybe add her reviving him by putting his heart into a statue, as a happy end
+NOTE: unlocking the true ending should require multiple playthroughs, maybe at least 3
+
+
 
 The Merchant:
 -the merchant is secretly the true final boss at depth 100, has extremely strong stats/abilities/ranged attacks, is multiphase, similarly to the normal final boss fight
