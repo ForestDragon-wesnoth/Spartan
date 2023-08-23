@@ -100,9 +100,17 @@ function wml_actions.spartan_harm_unit(cfg)
 				resistance_multiplier
 			)
 
+			--SPARTAN EDITED CODE HERE, TO MAKE AOE OVERKILL WORK!!!
+
+--			if unit_to_harm.hitpoints <= damage then
+--				if kill == false then damage = unit_to_harm.hitpoints - 1
+--				else damage = unit_to_harm.hitpoints
+--				end
+--			end
+
 			if unit_to_harm.hitpoints <= damage then
 				if kill == false then damage = unit_to_harm.hitpoints - 1
-				else damage = unit_to_harm.hitpoints
+				else damage = damage
 				end
 			end
 
