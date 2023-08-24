@@ -201,6 +201,14 @@ function wesnoth.interface.game_display.otherinfo()
     	end
 	end
 
+	if wml.variables["book_of_pacts_unlocked"..viewing_side] ~= nil then
+    	if wml.variables["hoplite_book_of_pacts_cooldown"..viewing_side] > 0 then
+    		str2 = str2.._"Book of Pacts cooldown: <span color='#ffff99'>"..wml.variables["hoplite_book_of_pacts_cooldown"..viewing_side].."</span> depths".."\n"
+    	else 
+    		str2 = str2.._"Book of Pacts cooldown: <span color='#ffff99'>Ready</span>".."\n"
+    	end
+	end
+
 	if wml.variables["Algadur_stored.id"] ~= nil then
     	if wml.variables["algadur_cooldown"] > 0 then
     		str2 = str2.._"Algadur return cooldown: <span color='#ffff99'>"..wml.variables["algadur_cooldown"].."</span> depths".."\n"
