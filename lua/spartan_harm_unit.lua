@@ -1,7 +1,9 @@
 --based on the mainline [harm_unit] tag lua code, but edited so it works properly with phoenix amulet
 --(renamed tag, and calls [spartan_kill] tag)
 
---UPD: opened an issue on github about harm_unit. if it does get fixed in 1.18 I can switch back to normal harm_unit tags
+--UPD: edited the code so that damage can go into negatives, for overkill to work
+
+--UPD: added a "damage_inflicted_variable" parameter to the tag, for stuff like ranged drain
 
 local helper = wesnoth.require "helper"
 local utils = wesnoth.require "wml-utils"
@@ -41,6 +43,11 @@ function wml_actions.spartan_harm_unit(cfg)
 			local harmer_filter = wml.get_child(cfg, "filter_second")
 			local experience = cfg.experience
 			local resistance_multiplier = tonumber(cfg.resistance_multiplier) or 1
+
+			--SPARTAN EDITED CODE:
+
+			local damage_inflicted_variable = cfg.damage_inflicted_variable
+
 			if harmer_filter then harmer = wesnoth.units.find_on_map(harmer_filter)[1] end
 			-- end of block to support $this_unit
 
@@ -108,10 +115,17 @@ function wml_actions.spartan_harm_unit(cfg)
 --				end
 --			end
 
+
 			if unit_to_harm.hitpoints <= damage then
 				if kill == false then damage = unit_to_harm.hitpoints - 1
 				else damage = damage
 				end
+			end
+
+			--SPARTAN EDITED CODE HERE, TO GET INFLICTED DAMAGE (for stuff like ranged drain)
+
+			if damage_inflicted_variable ~= nil and damage ~= nil then
+                wml.variables[damage_inflicted_variable] = damage
 			end
 
 			unit_to_harm.hitpoints = unit_to_harm.hitpoints - damage
