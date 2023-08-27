@@ -148,6 +148,16 @@ function wesnoth.interface.game_display.otherinfo()
 
 	--TODO: add if statement
 
+	if wml.variables["spartan_difficulty_values.name"] ~= nil then
+		str2 = str2.._"Difficulty: <span color='#ffff99'>"..wml.variables["spartan_difficulty_values.name"].."</span>\n"
+	end
+
+	if wml.variables["spartan_ironman_latest_turn"] ~= nil then
+    	if wml.variables["spartan_ironman_latest_turn"] > 0 then
+		str2 = str2.._"Ironman Mode: <span color='#ffff99'>Yes</span>\n"
+    	end
+	end
+
 	if wml.variables["healpotionI_unlocked"..viewing_side] ~= nil then
 		str2 = str2.._"Healing potions in inventory: <span color='#ffff99'>"..wml.variables["healpotions_in_inventory"..viewing_side].."/"..wml.variables["healpotion_capacity"..viewing_side].."</span>\n"
 	end
@@ -165,6 +175,14 @@ function wesnoth.interface.game_display.otherinfo()
     		str2 = str2.._"Flame Blast cooldown: <span color='#ffff99'>"..wml.variables["hoplite_wizardbeam_cooldown"..viewing_side].."</span> turns".."\n"
     	else 
     		str2 = str2.._"Flame Blast: <span color='#ffff99'>Ready</span>".."\n"
+    	end
+	end
+
+	if wml.variables["deployshield_unlocked"..viewing_side] ~= nil then
+    	if wml.variables["hoplite_deployshield_cooldown"..viewing_side] > 0 then
+    		str2 = str2.._"Deploy Shield cooldown: <span color='#ffff99'>"..wml.variables["hoplite_deployshield_cooldown"..viewing_side].."</span> turns".."\n"
+    	else 
+    		str2 = str2.._"Deploy Shield: <span color='#ffff99'>Ready</span>".."\n"
     	end
 	end
 
