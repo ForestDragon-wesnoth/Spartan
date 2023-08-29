@@ -1,15 +1,15 @@
 border_size=1
 usage=map
 
-Xos, Xos, Xos, Xos, Xol, Xos, Xos, Xos, Xol, Xos, Xos, Xos, Xos
-Xos, Xos, Xos, Xol, Urb, Urb, Urb, Urb, Urb, Xol, Xos, Xos, Xos
+Xos, Xos, Xos, Xos, Xos^Efs, Xos, Xos, Xos, Xos^Efs, Xos, Xos, Xos, Xos
+Xos, Xos, Xos, Xos^Efs, Urb, Urb, Urb, Urb, Urb, Xos^Efs, Xos, Xos, Xos
 Xos, Xos, Urb, Urb, Xos, Urb, Urb, Urb, Xos, Xos, Urb, Xos, Xos
 Xos, Xos, Urb, Urb, Urb, Xos, Xos, Xos, Urb, Urb, Urb, Xos, Xos
-Xos, Xos, Urb, Xos, Xol, Urb, Urb, Urb, Xol, Xos, Urb, Xos, Xos
-Xos, Xos, Urb, Urb, Xos, Xol, Xos, Xol, Urb, Urb, Urb, Xos, Xos
+Xos, Xos, Urb, Xos, Xos^Efs, Urb, Urb, Urb, Xos^Efs, Xos, Urb, Xos, Xos
+Xos, Xos, Urb, Urb, Xos, Xos^Efs, Xos, Xos^Efs, Urb, Urb, Urb, Xos, Xos
 Xos, Xos, Xos, Xos, Urb, Urb, Urb, Urb, Urb, Xos, Xos, Xos, Xos
-Xos, Xos, Urb, Urb, Xol, Urb, Urb, Urb, Xol, Urb, Urb, Xos, Xos
-Xos, Xos, Urb, Urb, Urb, Xol, Xos, Xol, Urb, Urb, Urb, Xos, Xos
+Xos, Xos, Urb, Urb, Xos^Efs, Urb, Urb, Urb, Xos^Efs, Urb, Urb, Xos, Xos
+Xos, Xos, Urb, Urb, Urb, Xos^Efs, Xos, Xos^Efs, Urb, Urb, Urb, Xos, Xos
 Xos, Xos, Xos, Urb, Urb, Urb, Ur^Ii, Xos, Xos, Urb, Xos, Xos, Xos
 Xos, Xos, Xos, Xos, Xos, Ur^Ii, 1 Ur^Ii, Ur^Ii, Xos, Xos, Xos, Xos, Xos
 Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos
