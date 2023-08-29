@@ -1,2 +1,4 @@
 *.pbl
 .directory
+*.cfg-bak
+*.map-bak
