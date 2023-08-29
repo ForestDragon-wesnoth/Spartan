@@ -10,11 +10,10 @@ People working on/helping with with the add-on:
 -beta playtesting: Rovik, inferno8, Smiley J, Tezereth, Jeremias, dwarftough (helped me with optimizing the code)
 -help with dialog: Smiley J
 -maps: ForestDragon, Rovik
--some custom UI icons: Mechanical
 -story design help: Mechanical
+-custom art by Mechanical: Galatea sprites, Deployed Shield sprite, some custom UI icons
 -donations:
  -first patron: Jeremias (aka Anekron)
- -drake burner tier: egallager (donated $3 total)
+ -drake burner tier: egallager (donated $3 total), Heindal (donated $3 total)
  -fire drake tier: inferno8 (donated $15 total)
- -inferno drake tier: Jeremias (aka Anekron. donated $12 total)
- -armageddon drake tier:
+ -inferno drake tier: Jeremias (aka Anekron. donated $24 total)
