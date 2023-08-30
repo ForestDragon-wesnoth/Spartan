@@ -1,12 +1,9 @@
-border_size=1
-usage=map
-
 Xos, Xos, Xos, Xos, Xos^Efs, Xos, Xos, Xos, Xos^Efs, Xos, Xos, Xos, Xos
-Xos, Xos, Xos, Xos, Xos^Efs, Xos^Efs, Urb, Xos^Efs, Xos^Efs, Xos, Xos, Xos, Xos
+Xos, Xos, Xos, Xos, Xos, Xos^Efs, Urb, Xos^Efs, Xos, Xos, Xos, Xos, Xos
 Xos, Xos, Xos, Xos, Urb, Urb, Urb, Urb, Urb, Xos, Xos, Xos, Xos
 Xos, Xos, Urb, Urb, Xos, Urb, Urb, Urb, Xos, Urb, Urb, Xos, Xos
 Xos, Xos, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Xos, Xos
-Xos, Xos, Urb, Urb, Xos, Urb, Urb, Urb, Xos, Urb, Urb, Xos, Xos
+Xos, Xos, Urb, Urb, Xos^Efs, Urb, Urb, Urb, Xos^Efs, Urb, Urb, Xos, Xos
 Xos, Xos, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Xos, Xos
 Xos, Xos, Urb, Urb, Xos, Urb, Urb, Urb, Xos, Urb, Urb, Xos, Xos
 Xos, Xos, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Xos, Xos
