@@ -12,6 +12,7 @@ People working on/helping with with the add-on:
 -maps: ForestDragon, Rovik
 -story design help: Mechanical
 -custom art by Mechanical: Galatea sprites, Deployed Shield sprite, some custom UI icons
+-custom art by inferno8: hoplite portrait
 -donations:
  -first patron: Jeremias (aka Anekron)
  -drake burner tier: egallager (donated $3 total), Heindal (donated $3 total)
