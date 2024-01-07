@@ -1,0 +1,3 @@
+if this engine bug gets fixed, the workaround is completely unnecessary anyway and the existing code will work fine:
+
+https://github.com/wesnoth/wesnoth/issues/7723
