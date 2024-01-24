@@ -247,10 +247,6 @@ function wesnoth.interface.game_display.otherinfo()
     	str2 = str2.._"You don't yet have upgrades with a cooldown listed in this menu.".."\n"
 	end
 
-
-	--TODO:
-    	--add Algadur/Elizabeth return cooldowns if either of them is stored
-
 	return { { 'element', {
 		text = str,
 		tooltip = str2
