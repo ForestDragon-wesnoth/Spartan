@@ -1,6 +1,5 @@
 --copy of the [kill] tag lua code (1.16 version, might need to update sometimes), that respects revives
 
-local helper = wesnoth.require "helper"
 local location_set = wesnoth.require "location_set"
 
 local kill_recursion_preventer = location_set.create()
@@ -41,7 +40,7 @@ function wesnoth.wml_actions.spartan_kill(cfg)
 			end
 		end
 		if can_fire then
-			wesnoth.fire_event("last breath", death_loc, killer_loc)
+			wesnoth.game_events.fire("last breath", death_loc, killer_loc)
 		end
 
 --SPARTAN EDITED CODE HERE:
@@ -93,7 +92,7 @@ function wesnoth.wml_actions.spartan_kill(cfg)
 
 --SPARTAN EDITED CODE added hp check:
 		if can_fire and unit_test_hp < 1  then
-			wesnoth.fire_event("die", death_loc, killer_loc)
+			wesnoth.game_events.fire("die", death_loc, killer_loc)
 		end
 		if cfg.fire_event then
 			if recursion <= 1 then

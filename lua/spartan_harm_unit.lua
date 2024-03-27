@@ -5,7 +5,6 @@
 
 --UPD: added a "damage_inflicted_variable" parameter to the tag, for stuff like ranged drain
 
-local helper = wesnoth.require "helper"
 local utils = wesnoth.require "wml-utils"
 local wml_actions = wesnoth.wml_actions
 local T = wml.tag
@@ -158,7 +157,7 @@ function wml_actions.spartan_harm_unit(cfg)
 
 			-- Extract unit and put it back to update animation if status was changed
 			unit_to_harm:extract()
-			unit_to_harm:to_map()
+			unit_to_harm:to_map(false)
 
 			if add_tab then
 				text = string.format("%s%s", "\t", text)
