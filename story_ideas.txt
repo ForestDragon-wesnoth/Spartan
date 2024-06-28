@@ -63,7 +63,8 @@ Artifact:
 "Main Antagonist" (most likely female):
 -race/origin concept:
  -she is some sort of living statue made out of marble, made alive by magic in Irdya
- -her creator is someone able to travel between worlds
+ -her creator, Mallion, is someone able to travel between worlds
+  -the underworld portal in depth 30 (and some randomly-spawning ones after that) is most likely his creation, though some are probably made by the Merchant with the information he took from Mallion
  -she tries to find her creator, then the Merchant tricks her into a pact
   -she gets power/ability to travel between worlds/open portals, but the Merchant mind-controls her
  -twist could be that the merchant has secretly killed her creator some time before the events of the campaign
