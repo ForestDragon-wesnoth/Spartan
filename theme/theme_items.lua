@@ -128,7 +128,6 @@ function wesnoth.interface.game_display.orbs()
 	return { { 'element', {
 		text = str,
 		tooltip = str2
-
 	} } }
 
 end
