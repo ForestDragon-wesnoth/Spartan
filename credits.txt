@@ -13,7 +13,7 @@ People working on/helping with with the add-on:
 -story design help: Mechanical
 -custom art by Mechanical: Galatea sprites, Deployed Shield sprite, some custom UI icons
 -custom art by inferno8: hoplite portrait
--donations:
+-donations (TODO: update numbers later) :
  -first patron: Jeremias (aka Anekron)
  -drake burner tier: egallager (donated $3 total), Heindal (donated $3 total)
  -fire drake tier: inferno8 (donated $15 total)
