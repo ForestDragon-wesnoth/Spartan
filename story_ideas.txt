@@ -98,7 +98,11 @@ potential required steps to get true ending (haven't fully decided on the order 
 -having both Algadur and Elizabeth could be a requirement (some steps could require one of them)
 -discovering that Galatea is being manipulated by the Merchant
 -while under the effects of the potion, and after completing some other steps, in the "final boss fight", after completing other steps, convince Galatea that she has been tricked by the Merchant
+ -might require defeating her normally again anyway, so that her cursed armor is broken (and talking to her in her defeated form)
  -she switched sides and becomes a companion, but now much weaker since she no longer has powers granted by the Merchant
+   -she could probably still keep some abilities/attacks from her boss fight but weaker (and maybe a menu to toggle between ranged attack types)
+    -for example she could definitely still have a charged slash as one of her options
+    -she can also keep some knockback resistance (maybe 1 instead of 2)
   -enemies now serve the Merchant directly instead
   -Merchant shop levels no longer have the Merchant in them, either
    a) shops now spawn enemies
