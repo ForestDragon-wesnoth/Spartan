@@ -95,6 +95,9 @@ potential required steps to get true ending (haven't fully decided on the order 
   -will require a lot of adjustments to dialog
    -but to make this rewrite a bit easier, the main character could decide early on to pretend like he does not remember past events unless necessary, to avoid blowing his cover and being noticed by whoever is the true villain (aka the Merchant)
     -when talking to the Merchant in this mode, the Spartan will be suspicious that Merchant also has memory between cycles, and intentionally plays dumb (pretending not to understand that the merchant also remembers past playthroughs)
+-idea: besides the memory potion, I can also have a few other things that can carry over between playthroughs
+ -for example, a orb-of-insight-enchanted key, so players can reach an true ending step area on a new playthrough, but don't gain the huge story advantage of the memory potion
+  -maybe make it so that preserving those items requires doing a full playthrough to avoid savescumming abuse for the true ending?
 -having both Algadur and Elizabeth could be a requirement (some steps could require one of them)
 -discovering that Galatea is being manipulated by the Merchant
 -while under the effects of the potion, and after completing some other steps, in the "final boss fight", after completing other steps, convince Galatea that she has been tricked by the Merchant
