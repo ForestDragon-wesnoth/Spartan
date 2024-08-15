@@ -119,6 +119,7 @@ potential required steps to get true ending (haven't fully decided on the order 
  -Galatea maybe also finds Mallion's heart. I could maybe add her sorta reviving him by putting his heart into a statue, as a happy end
 NOTE: unlocking the true ending should require multiple playthroughs, maybe at least 3
 
+IMPORTANT NOTE 2: if the player took the Pact of Overlord (aka what Galatea took herself), it should be impossible to get the true ending in that specific playthrough (since the player character becomes a puppet of the Merchant)
 
 
 The Merchant:
