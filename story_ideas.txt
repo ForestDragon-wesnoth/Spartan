@@ -95,6 +95,8 @@ potential required steps to get true ending (haven't fully decided on the order 
   -will require a lot of adjustments to dialog
    -but to make this rewrite a bit easier, the main character could decide early on to pretend like he does not remember past events unless necessary, to avoid blowing his cover and being noticed by whoever is the true villain (aka the Merchant)
     -when talking to the Merchant in this mode, the Spartan will be suspicious that Merchant also has memory between cycles, and intentionally plays dumb (pretending not to understand that the merchant also remembers past playthroughs)
+ -UPD: new idea: maybe instead of "item that lets you keep memories", make an "item that makes the player character remember everything from past time loops"
+  -this way it 1. reduces how much dialog I have to add, and 2. players can still get the normal ending this way even after meeting true ending requirements
 -idea: besides the memory potion, I can also have a few other things that can carry over between playthroughs
  -for example, a orb-of-insight-enchanted key, so players can reach an true ending step area on a new playthrough, but don't gain the huge story advantage of the memory potion
   -maybe make it so that preserving those items requires doing a full playthrough to avoid savescumming abuse for the true ending?
