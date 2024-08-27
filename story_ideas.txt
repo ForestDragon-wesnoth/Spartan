@@ -124,7 +124,17 @@ NOTE: unlocking the true ending should require multiple playthroughs, maybe at l
 IMPORTANT NOTE 2: if the player took the Pact of Overlord (aka what Galatea took herself), it should be impossible to get the true ending in that specific playthrough (since the player character becomes a puppet of the Merchant)
 
 
+Mallion:
+-creator of Galatea
+-is an elf, maybe a male equivalent of a Sylph
+
 The Merchant:
+
+connection with Xerxix - Xerxix used to be an independent saurian shaman, but somehow got involved with the Merchant and become fully possessed by him
+the merchant players speak to is actually Xerxix's body under the hood, puppeteered by the Merchant
+the Merchant probably has no "true" physical form
+
+
 -the merchant is secretly the true final boss at depth 100, has extremely strong stats/abilities/ranged attacks, is multiphase, similarly to the normal final boss fight
 -he is actually responsible for the time loop
 -Orbs of Insight are harvested via kills, concentrating the dead unit's power (plus maybe some other factor related to the cave itself?), so the purpose of the time loop is to have the Spartan kill enemies/bosses over and over for the Merchant, so he doesn't need to put in the effort himself
