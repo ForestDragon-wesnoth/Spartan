@@ -37,96 +37,64 @@ WARNING: MASSIVE SPOILERS AHEAD
 YOU HAVE BEEN WARNED
 ------------------------------------------------------------------------------------
 
-Story structure concept (written with help from Mechanical)
+Chronological order of events before the start of the campaign:
+1 - Mallion created Galatea
+2 - Mallion accidentally freed the merchant with his experiments with portals (Merchant does not yet have a physical body in Irdya)
+3 - the merchant tries to learn the method of creating portals from Mallion, but he refuses to give them to him
+4 - the merchant leaves, visits the local lizards, manages to brainwash them (including Xerxix and Anexir). He then takes over Xerxix's body and uses it as his own, while gives Anexir a bit more autonomy
+5 - The Merchant applies dark magic on the whole cave that creates Orbs of Insight from death. He starts the time loop around the cave, then uses his mind-control powers to force some factions to fight eachother, and once the carnage ends he rewinds time to start again, 
+the merchant set up a farm of balls with time cycles and without a hoplite
+6 - Mallion was able to outwit the rewind of time, retained his memory and realized who the merchant really is. began to use these cycles to prepare all sorts of magic that can kill/seal the merchant (maybe something for Galatea), and leave clues about the time loop/Merchant in case he fails (something that the Hoplite will use later)
+7 - Mallion tries to kill the merchant, but he kills him first (maybe the Merchant also rewinds time so that Mallion cannot warn Galatea about his death)
+8 - the merchant shifts the time cycle so that Mallion remains dead
+9 - the merchant wants to get Mallion's secrets about portals to other worlds
+10 - the merchant lies to Galatea that Mallion was kidnapped by someone from another world, and offers her a deal - he helps her "free" Mallion, and in return she teaches him about portals so that he can supposedly help her
+11 - Galatea signs the Pact of Overlord and teaches the merchant about portals
+12 - the merchant returns to Mallion's corpse, uses black magic to revive his heart to use as bait, because Galatea is able to magically sense where Mallion's heart is
+13 - the merchant goes to the first randomly world he comes across, which turns out to be the world the hoplite lives in, merchant places the heart in Sparta
+14 - the merchant returns to Irdya, tells Galatea that "the evil Spartans kidnapped Mallion"
+15 - Galatea, with her power, assembles an army by mind-controls most of the locals and summoning some allies from other worlds via her portals (including Arachne/Minotaur from hoplite's world)
+16 - attack on Sparta, the hoplite ends up in Irdia, etc. in general, everything is like in the prologue
+17 - seeing the hoplite's potential as a way to farm kills for orbs, the merchant shifts the beginning of the time cycle to the moment when the hoplite ended up in Irdia
+18 - now both the hoplite and Galatea become pawns in the Merchants's plan to gather Orbs of Insight while he sits back and watches, and trades for orbs with the hoplite
 
-Prologue:
-1. takes place in Spartan's home world, cutscene where he and a squad of hoplites fights the Main Antagonist
-2. main antagonist creates a portal and flees, one (or two in multiplayer) hoplite(s) aka main character(s) chase the antagonist, and just barely get in
-3. the cave is actually the main antagonist's old lair
-4. protagonist wakes up in Irdya, mentor character (maybe saurian oracle) explains the situation
-5. tutorial starts, then protagonist goes into the cave
 
-
-Tutorial:
--mentor character could be a Saurian Oracle maybe
--mentor is secretly The Merchant in disguise, going to inform the hoplite about the "main antagonist" puppet and thus start the quest
+Story concepts/notes/plans for when writing/designing the true ending:
 
 Time Loop:
 -campaign being replayed multiple times is actually canon. the cave is stuck in an endless time loop, that resets when the Spartan either dies or defeats the "final boss"
--Most characters do not remember what happens in previous playthroughs, however, the Merchant does
+-Most characters do not remember what happens in previous playthroughs, however, The Merchant does
+-The Merchant is the one responsible for starting the time loop in the cave
 
-Artifact:
--instead of the current system of "you take artifact at depth 40 and can continue with it", you will get the artifact right in the final boss room
--artifact is used by the Main Antagonist for opening portals and summoning minions from them (might even add a robot world for later biomes)
--UPD: maybe even remove the artifact altogether, or replace it with some other way to get a +50 Energy buff
-
-"Main Antagonist" (most likely female):
--race/origin concept:
- -she is some sort of living statue made out of marble, made alive by magic in Irdya
- -her creator, Mallion, is someone able to travel between worlds
-  -the underworld portal in depth 30 (and some randomly-spawning ones after that) is most likely his creation, though some are probably made by the Merchant with the information he took from Mallion
- -she tries to find her creator, then the Merchant tricks her into a pact
-  -she gets power/ability to travel between worlds/open portals, but the Merchant mind-controls her
- -twist could be that the merchant has secretly killed her creator some time before the events of the campaign
- -she then invades Sparta since the Merchant influenced her to do, setting the events of the campaign in motion
--very good at magic, able to mind control large amounts of enemies
--goal is conquering Irdya and eventually other worlds
--can be fought in depth 40, or at some intervals later on
- -if the hoplite fights the boss later, he does get more upgrades, but in return the boss gains stronger stats (maybe even some new tricks later on) too
--fight has multiple phases
--is unaware of the Merchant's involvement in the whole situation
--a large of amount of his power is secretly given by the Merchant
+Galatea:
+-she is some sort of living statue made out of marble, made alive by magic in Irdya
+-her creator, Mallion (more in detail below) is able to travel between worlds
+-she is also able to travel between worlds, likely due to being taught by Mallion
+-possibly has some kind of powerful inherent magic inside her (maybe made out of special magical stone, or has a magical heart)?
+-she tries to find her creator, then the Merchant tricks her into signing the Pact of Overlord (like the one available to the hoplite)
+ -she becomes very powerful and can mind-control whole armies, but as a side-effect becomes the Merchant's pawn (but still keeps some autonomy and pursues after Mallion regardless of the methods)
+ -the price could be that she taught the Merchant mallion's portal spells?
+ -a twist could be that the merchant has secretly killed her creator some time before the events of the campaign
+  -then the Merchant takes Mallion's heart, keeps the heart alive with some dark magic and uses it as bait to make Galatea attack Sparta
 -idea:
  -if the Spartan goes deep enough in the caves, he may run into the Main Antagonist, and convince the antagonist about the time loop
   -after that, Main Antagonist loses much of his/her powers, but ends up switching sides and joins the Spartan as a companion
    -enemies in the cave become mind-controlled directly by the Merchant instead
-   -motivation for switching sides could be that Merchant secretly killed her creator some time before the story begins
-
-
-True Ending steps approximate plan:
-potential required steps to get true ending (haven't fully decided on the order yet though):
--sparing archmage Arcanus's life with a healing potion while he is heavily wounded
- -should definitely be a requirement on final playthrough at least, but some early steps should require it too
- -maybe if archmage is not spared, Merchant convinces Elizabeth to take revenge on Odysseus during a true ending step, preventing the true ending
--finding Mallion's workshop, maybe with a potion recipe and some hints about the time cycle, Galatea and the Merchant
- -workshop should be somewhere after depth 40
--using Orbs of Insight (spending at least 10 or even more) to brew a special potion (maybe name it something like Chronos Potion)
- -the potion allows the main character to "remember" things from previous playthroughs
-  -will require a lot of adjustments to dialog
-   -but to make this rewrite a bit easier, the main character could decide early on to pretend like he does not remember past events unless necessary, to avoid blowing his cover and being noticed by whoever is the true villain (aka the Merchant)
-    -when talking to the Merchant in this mode, the Spartan will be suspicious that Merchant also has memory between cycles, and intentionally plays dumb (pretending not to understand that the merchant also remembers past playthroughs)
- -UPD: new idea: maybe instead of "item that lets you keep memories", make an "item that makes the player character remember everything from past time loops"
-  -this way it 1. reduces how much dialog I have to add, and 2. players can still get the normal ending this way even after meeting true ending requirements
--idea: besides the memory potion, I can also have a few other things that can carry over between playthroughs
- -for example, a orb-of-insight-enchanted key, so players can reach an true ending step area on a new playthrough, but don't gain the huge story advantage of the memory potion
-  -maybe make it so that preserving those items requires doing a full playthrough to avoid savescumming abuse for the true ending?
--having both Algadur and Elizabeth could be a requirement (some steps could require one of them)
--discovering that Galatea is being manipulated by the Merchant
--while under the effects of the potion, and after completing some other steps, in the "final boss fight", after completing other steps, convince Galatea that she has been tricked by the Merchant
- -might require defeating her normally again anyway, so that her cursed armor is broken (and talking to her in her defeated form)
- -UPD: maybe the player will need some kind of magic item to dispel the Pact of Overlord from Galatea, since the pact allows the merchant to possess Galatea if he needs to
-  -maybe that item could be something made by Mallion before?
- -she switched sides and becomes a companion, but now much weaker since she no longer has powers granted by the Merchant
-   -she could probably still keep some abilities/attacks from her boss fight but weaker (and maybe a menu to toggle between ranged attack types)
-    -for example she could definitely still have a charged slash as one of her options
-    -she can also keep some knockback resistance (maybe 1 instead of 2)
-  -enemies now serve the Merchant directly instead
-  -Merchant shop levels no longer have the Merchant in them, either
-   a) shops now spawn enemies
-   b) shops are just eerily empty
--with Galatea's help, unlock access to some very late-game depths, maybe post-depth-80 or post-depth-90 or so
- -that area will have the toughest new lategame biome(s), with the Merchant's strongest minions there
--epic boss fight against the Merchant himself
- -with the merchant killed or banished from Irdya, the time loop ends and the campaign ends for real
- -Galatea maybe also finds Mallion's heart. I could maybe add her sorta reviving him by putting his heart into a statue, as a happy end
-NOTE: unlocking the true ending should require multiple playthroughs, maybe at least 3
-
-IMPORTANT NOTE 2: if the player took the Pact of Overlord (aka what Galatea took herself), it should be impossible to get the true ending in that specific playthrough (since the player character becomes a puppet of the Merchant)
+   -motivation for switching sides is that Merchant secretly killed her creator some time before the story begins
 
 
 Mallion:
 -creator of Galatea
 -is an elf, maybe a male equivalent of a Sylph
+-the underworld portal in depth 30 (and some randomly-spawning ones after that) is most likely his creation, though some are probably made by the Merchant with the information he took from Mallion
+-maybe his portal experiments are what unleashed the Merchant into Irdya after being sealed in some other world for millenia
+
+Xerxix:
+-originally a normal saurian shaman
+
+
+Anexir:
+
 
 The Merchant:
 
@@ -217,188 +185,45 @@ the Merchant probably has no "true" physical form
 
 
 
-Previous notes (some still relevant, like tutorial):
+True Ending steps approximate plan:
+potential required steps to get true ending (haven't fully decided on the order yet though):
+-sparing archmage Arcanus's life with a healing potion while he is heavily wounded
+ -should definitely be a requirement on final playthrough at least, but some early steps should require it too
+ -maybe if archmage is not spared, Merchant convinces Elizabeth to take revenge on Odysseus during a true ending step, preventing the true ending
+-finding Mallion's workshop, maybe with a potion recipe and some hints about the time cycle, Galatea and the Merchant
+ -workshop should be somewhere after depth 40
+-using Orbs of Insight (spending at least 10 or even more) to brew a special potion (maybe name it something like Chronos Potion)
+ -the potion allows the main character to "remember" things from previous playthroughs
+  -will require a lot of adjustments to dialog
+   -but to make this rewrite a bit easier, the main character could decide early on to pretend like he does not remember past events unless necessary, to avoid blowing his cover and being noticed by whoever is the true villain (aka the Merchant)
+    -when talking to the Merchant in this mode, the Spartan will be suspicious that Merchant also has memory between cycles, and intentionally plays dumb (pretending not to understand that the merchant also remembers past playthroughs)
+ -UPD: new idea: maybe instead of "item that lets you keep memories", make an "item that makes the player character remember everything from past time loops"
+  -this way it 1. reduces how much dialog I have to add, and 2. players can still get the normal ending this way even after meeting true ending requirements
+-idea: besides the memory potion, I can also have a few other things that can carry over between playthroughs
+ -for example, a orb-of-insight-enchanted key, so players can reach an true ending step area on a new playthrough, but don't gain the huge story advantage of the memory potion
+  -maybe make it so that preserving those items requires doing a full playthrough to avoid savescumming abuse for the true ending?
+-having both Algadur and Elizabeth could be a requirement (some steps could require one of them)
+-discovering that Galatea is being manipulated by the Merchant
+-while under the effects of the potion, and after completing some other steps, in the "final boss fight", after completing other steps, convince Galatea that she has been tricked by the Merchant
+ -might require defeating her normally again anyway, so that her cursed armor is broken (and talking to her in her defeated form)
+ -UPD: maybe the player will need some kind of magic item to dispel the Pact of Overlord from Galatea, since the pact allows the merchant to possess Galatea if he needs to
+  -maybe that item could be something made by Mallion before?
+ -she switched sides and becomes a companion, but now much weaker since she no longer has powers granted by the Merchant
+   -she could probably still keep some abilities/attacks from her boss fight but weaker (and maybe a menu to toggle between ranged attack types)
+    -for example she could definitely still have a charged slash as one of her options
+    -she can also keep some knockback resistance (maybe 1 instead of 2)
+  -enemies now serve the Merchant directly instead
+  -Merchant shop levels no longer have the Merchant in them, either
+   a) shops now spawn enemies
+   b) shops are just eerily empty
+-with Galatea's help, unlock access to some very late-game depths, maybe post-depth-80 or post-depth-90 or so
+ -that area will have the toughest new lategame biome(s), with the Merchant's strongest minions there
+-epic boss fight against the Merchant himself
+ -with the merchant killed or banished from Irdya, the time loop ends and the campaign ends for real
+ -Galatea maybe also finds Mallion's heart. I could maybe add her sorta reviving him by putting his heart into a statue, as a happy end
+NOTE: unlocking the true ending should require multiple playthroughs, maybe at least 3
 
-spartan reworked story concept (could add the intro as part of the tutorial maybe):
-
-story plan A:
--campaign mainly takes place in pre-fall Irdya
- -the main character is from a different world, one resembling mythological ancient greece, living in Sparta specifically
-  -main character worships greek gods, probably Ares and Athena (this should be reflected in his lines regarding religion)
- prologue:
- -an archeological expedition led by Archmage Arcanus (the archmage boss) descend deep into the cave where the story takes place
-  -it's an ominous ancient ruin, with altars and an unactivated portal, with a glowing crystal next to it
-  -the expedition has several mages, including an old mage which will be 
-  -archmage: "Finally, after decades of searching, we have finally found them - the Umbral Gates! According to the ancient writings we translated, the Gates can open a portal to other worlds. Begin the preparation for the ritual."
-  -*fade to black, 1000ms delay, fade in*
-  -random lower-level mage: "The preparation is complete, Master Arcanus."
-  -archmage: "Yes, my apprentice, finally, we will finally be access other worlds! The possibilities are endless! Now time to activate the crystal..."
-  -*archmage plays casting animation, screen flashes and some magic sounds are played*
-  -*red portal opens*
-  -random mage: "It's working!"
-  *<insert final boss name here> (final boss demon of the campaign) enters the world from the portal, not sure about sprite yet*
-  -<insert final boss name here>: "Yes, yes, the barrier between the worlds is finally broken! Irdya shall soon belong to me! Kneel before your future sovereign - <insert final boss name here>, Overlord of the Ninth Circle of Inferno!"
-  -one of the random higher-level mages: "Dear god... we opened a portal the Inferno! Your experiment doomed us all, Arcanus!"
-  -archmage: "Damn it! We have no time to waste. Quick, redirect the Gates to a different world!"
-  -*portal changes color from red to blue*
-  -*hoplite(s) enter(s) world from the portal*
-  -sp: hoplite: "By Ares! Where... am I? What is happening?"
-  -mp: hoplite: "By Ares! Where... are we? What is happening?"
-  -<insert final boss name here>: "You are merely delaying the inevitable, foolish mortals!"
-  -*<insert final boss name here> instakills some random mages*
-  -archmage: "(to the hoplite) We can't stay here, quick, we must teleport outside the cave!"
-  -*archmage plays casting animation*
-
-
-  after everyone except archmage Arcanus and <insert final boss name here> have either fled or are dead:
-  -<insert final boss name here>: "The others were worthless to me, but you Arcanus, you will make quite a useful puppet."
-  -archmage: "No, no, what are you..."
-  -<insert final boss name here>: "OBEY ME MORTAL!!!"#TODO: maybe add some kind of translated spell using Dugi's blackspeech generator
-  -*magic sounds/maybe a flash, ominous music change*
-  -*500ms delay*
-  -<insert final boss name here>: "Now, be a good dog and reopen the portal to Inferno."
-  -archmage: "Yes... my... master..."
-  -*portal changes color to red, some demon warriors appear from it*
-  -<insert final boss name here>: "Once enough of my armies arrive here, my glorious conquest shall begin!"
+IMPORTANT NOTE 2: if the player took the Pact of Overlord (aka what Galatea took herself), it should be impossible to get the true ending in that specific playthrough (since the player character becomes a puppet of the Merchant)
 
 
 
-
-tutorial section:
- *fade to black, 3000 ms delay, fade in to a new map, somewhere in the grassland/hills/mountains near the cave*
- -mentor: "I see you're finally awake"
- -sp: hoplite: "Argh... where... am I? What happened?"
- -mp: hoplite: "Argh... where... are we? What happened?"
- -mentor: "You are now in Irdya, a world different from yours. You got accidentally teleported here"
- -sp: hoplite: "But why have you chosen me, an outsider to your world?"
- -mp: hoplite2: "But why have you chosen us, outsiders to your world?"
- -mentor: "<demon boss name> has sealed the cave entrance with powerful demonic magic - as long as he is alive, no creature from Irdya may enter or exit it, but demons and other otherwordly beings may freely pass through..."
- -hoplite: "I see."
-
-
- -mentor: "Before I can send you to stop the demons, I must first see how well-prepared you are for the task."
- -*teleports self and hoplite(s) to some kind of empty training ground*
- -note: during tutorial sections, the depth exit is usually locked until the objective is completed
- sp version of tutorial:
- tutorial 1:
- -*summons 3 quintains, they are 10hp units with shortrange 5-1 melee*
- -mentor: "Your first test is to destroy these three quintains."
- -*narrator message explaining some basic mechanics of the campaign, copied from info menu*
- after quintains are all killed:
- -hoplite: "That was easy. Hardly anything compared to the training we had back home."
- -mentor: "I assure you, this is just a warmup."
- tutorial 2:
- *map changes to have 1-tile wide, and an open depth exit*
- -mentor: "The next test will be a test of your athleticism - you must jump over the water."
- -narrator: "You can leap via a rightclick menu on your character. Leaping costs 50 energy, shown in the top-right corner. The main way to restore energy is by killing enemies. Energy is also fully restored when you go to the next level."
-  if you run out of energy while not having reached the other side (repeated)
-   -mentor: "Exhausting yourself by jumping all over the place won't do you any good. I'll restore your energy with magic this time, but you won't have that luxury in the caves..."
-   -*restores energy*
-  if you reach the other side of the stream:
-   -mentor: "That was quite an impressive leap."
- tutorial 3:
-  -*map has two quintains surrounded by water tiles*
-  -mentor: "Sometimes an enemy will be just barely out of reach. Do you happen to be skilled with any ranged weapons?"
-  -hoplite: "I prefer melee combat, but if necessary I can throw a spear quite far."
-  -mentor: "Very well, demonstrate your spear-throwing skills on these quintains"
-  -narrator: "To throw your spear, rightclick on a tile in a 2-tile radius from the hoplite. The spear can't be thrown again until it is picked up my moving to it."
-  after killing one quintain:
-   -mentor: "Good throw! Now leap to retreive the spear you've thrown"
-  after killing the second quintain:
-   -*hoplite moves to exit without touching the spear*
-   -mentor: "Wait, you forgot your spear!"
-   -hoplite: "Do not worry, my spear carries the blessing of Hermes. If I am too far from it, it eventually finds it way to me. Watch and observe."
-  if you run out of energy (repeated)
-   -mentor: "Exhausting yourself by jumping all over the place won't do you any good. I'll restore your energy with magic this time, but you won't have that luxury in the caves..."
-   -*restores energy*
- tutorial 4:
-  -mentor: "Amazing, it did return! Your world is quite interesting, I must admit. But back to the test..."
-  -*summons three orc archers with the same image mods as shadow clone*
-  -mentor: "Your next task is to kill three shadow clone archers. While they may be illusions, the arrows they shoot are just as dangerous as the real thing. Make sure to move out of the way once you see them aiming"
-  -narrator: "tiles where archers are aiming will be highlighted in yellow. Archers will shoot on their turn"
-  once the archers are killed:
-  -mentor: "Well done, let's proceed"
- tutorial 5:
- -*summons some kind of powerful lvl2-3 unit which can be knocked back but has 30-50 hp and 10-15 damage*
- -*map has lava*
- -mentor: "Sometimes, it's best not to face an enemy head-on. Instead, you should use nearby terrain to your advantage - bash enemies into lava, walls, or chasms with your shield."
- -narrator: "You shield bash attack pushes enemies 1 tile, and slows them for a turn."
- when the enemy dies from lava/wallbash:
-  -mentor: "As you can see, the environment can be just as deadly of a weapon as your spear."
- if the enemy dies from a normal attack:
-  -mentor: "You actually managed to beat him head-on? I must admit, you surpassed even my expectations."
- tutorial 6:
-  TODO: make this tutorial part about swapping/controlling rats
-  (maybe rat in a hallway with side paths, and a ranged enemy at the end. if you don't control the rat, it gets kill and a new one is spawned at the start. if you control the rat and make it move ot the side, it can kill the ranged enemy)
-
- final tutorial:
-  -mentor: "Forges allow you to choose from a wide variety of powerful upgrades."
-  -*hoplite uses a forge*
-  -*forge delay is set to -1 to ensure total numnber of upgrades stays same regardless of whether player starts at tutorial or depth 1*
-
-
-
-
- mp version of tutorial:
- TODO:
-
-Changes in the actual campaign:
-1.the prometheus heart is scrapped for now in this version. new objective: "kill <insert final boss name here> and return to your world"
-2.shaxtal archmage fight is scrapped, the depth 15 fight is with the brainwashed archmage instead. he now has "Archmage Arcanus" as his name
-3.upgrades tied to shaxtal archmage should be tied to something else instead
-
-
-WIP:
-
-idea for post-<insert final boss name here> depths (if I do decide to include steelhive units in the add-on):
-elizabeth: "Though you could return now, I sense there is more going on in this cave than first seems... You could leave now, or you can follow me, and see how deep the rabbit hole goes..."
-
-true final boss twist idea:
--mentor: "So, we meet again..."
--mentor: "Truth is, I only needed your help to get past the cave's barrier to continue my work on the Steelhive. With this forgotten technology, I shall be unstoppable! The world shall be mine!"
--*mentor enters some kind of powerful mech either from Steelhive or archaic era*
-
-
-even better secret boss idea: the Mysterious Merchant could work a lot better as a true final boss
--maybe he has some ulterior motive for collecting lots of Orbs of Insight
--if the player runs into the merchant after beating him, he could say something like "Don't worry, I don't hold grudges."
-
-older WIP story concept
--story takes place either late pre-fall or early post-fall (decide later whichever is better)
- -the main character is from a different world, one resembling mythological ancient greece (could use the custom ivory terrain from BMR/Trinity), living in Sparta specifically
-  -main character worships greek gods, probably Ares and Athena (this should be reflected in his lines regarding religion)
--post-fall idea:
- -as the sun fell and wiped out Wesnoth, it also significantly weakened the barrier between worlds, creating several rifts between them. as a result of this
--pre-fall (not related to UtbS/IftU) idea:
- -in the Alduin academy, Archmage <come up with name later> (the archmage boss) attempts an ambitious experiment - a large magic crystal able to open portals to any other dimension
-  -the experiment goes horribly wrong, with the crystal opening a portal directly to the Inferno
-  -the academy is destroyed and most of the mages in it are killed by the demons, except the archmage who manages to flee with teleportation magic
--as a result of the barrier weakening, demons started entering the world through Inferno's rift, subjugating some orcs, nagas, necromancers and some others
- -the ancient greek world was also connected to Irdya by a rift, but this time a much less stable one
- idea a:
-  -as the rift opens, a squad of demons emerges from it, stealing the Prometheus' Heart
- idea b:
-  -the greeks see the crystal through the portal, believing it to be the Prometheus' Heart, a long-lost ancient artifact from their world
-   -the hoplite(s) is sent to bring the crystal to Sparta
-
-older concept 2:
--campaign mainly takes place in pre-fall Irdya
- -the main character is from a different world, one resembling mythological ancient greece (could use the custom ivory terrain from BMR/Trinity), living in Sparta specifically
-  -main character worships greek gods, probably Ares and Athena (this should be reflected in his lines regarding religion)
- -in the Alduin academy, Archmage <come up with name later> (the archmage boss) attempts an ambitious experiment - a large magic crystal able to open portals to any other dimension
-  -the experiment goes horribly wrong, with the crystal opening a portal directly to the Inferno, and a much smaller one to the greek world
-  -the academy is destroyed and most of the mages in it are killed by the demons, except the archmage who manages to flee with teleportation magic
--as a result of the barrier weakening, demons started entering the world through Inferno's rift, subjugating some orcs, nagas, necromancers and some others
- -the ancient greek world was also connected to Irdya by a rift, but this time a much less stable one
--before the tutorial, a small prologue scenario takes place in the greek world (or maybe the alduin academy where the crystal experiment takes place)
--dialog idea for prologue:
- -*fade in to several mages around the crystal*
- -random lower-level mage: "The preparation is complete, Master."
- -archmage: "Yes, my apprentice, finally, after decades years of research, we will finally be access other worlds! The possibilities are endless! Now time to activate the crystal..."
- -*archmage plays casting animation, screen flashes and some magic sounds are played*
- -*two different portals open next to the crystal, one blue (to greek world) and one red (to Inferno)*
- -random mage: "It's working!"
- *a demon (a named boss one, perhaps even the final boss) enters the world from one of the portal*
- -demon: "Yes, yes, the barrier between the worlds is finally broken! Irdya shall be mine!"
- -one of the random mages: "Dear god... we opened a portal the Inferno! Your experiment doomed us all, <archmage name>!"
- -archmage: "We have no time to waste. Quick, redirect the crystal to a different world!"
