@@ -244,3 +244,75 @@ during the Merchant intro, when the hoplite/Galatea/other companions do some epi
 merchant boss fight music: in the land of madness
 
 maybe find somewhere to use sing.ogg, probably something Galatea-related, maybe when the hoplite saves her from being finished off by Xerxix, and she sides with the hoplite after he tells her the truth about the Merchant
+
+
+
+
+Mallion's Notes (WIP):
+
+when you win at least once, the first note from Mallion will appear on the ground on depth 1
+picking it up unlocks the "The Great Secret" menu in the information menu (and a message from the narrator notifies the player about it after picking up the note)
+in the "The Great Secret" menu, players can read Mallion's notes again, and can spend Orbs of Insight to get hints how to progress the true ending (hints should be fairly expensive, maybe 5 or 10 orbs per clue, or get gradually more and more expensive as the player advances into the true ending story)
+
+
+
+note 1 (on depth 1 after defeating Galatea at least once, intentionally a bit cryptic):
+ note: maybe have some music playing when reading note 1 after picking it off the ground
+
+"To whoever finds this note, either my dear Galatea or someone else, know that this cave is not as it seems. If you have experienced a sense of deja vu, that things you have not seen before are oddly familiar, know that it is by no coincidence. 
+
+Something, or more accurately, someone, has disrupted the natural flow of time in the cave.
+
+Alas I cannot write everything in one note due to the risk of it falling into His hands.
+
+You may have found this note lying on the ground, or it is possible you may have woken up and found this note in your pocket. If it is the latter, then it means my enchantment has worked and there is still hope to stop Him.
+
+There are more notes I have hidden from His gaze, I trust you to find the rest of the truth yourself.
+
+Beware of He who remembers what did not yet happen.
+
+-Mallion"
+
+("Beware of he who remembers what did not yet happen." refers to the Merchant)
+
+
+note 2 (found after following some true ending steps):
+
+"To whoever finds this note, it appears you you have been
+
+I must confess something, I am in part to blame for this accursed time loop. In my excavations I have re-discovered the ancient magical art of interdimensional travel. I was able to create portals to any other world! I achieved what the greatest minds of Ka'lian could not! The possibilities were endless! ...Now I regret every moment of it.
+
+I taught the secrets to my dear Galatea, then I bid her farewell and began exploring this cave and testing my newly-found knowledge. I built portal after portal, explored world after world, I even made a trip to the land of the dead and back alive!
+
+Having cheated death, I was even further emboldened to keep opening and closing portals to all sorts of worlds. As much as I would like to describe all I saw there, this note has not even a tenth of the space needed to truly describe it all, so I must omit it here.
+
+One fateful day, I opened a portal to what seemed like an empty dark void. It is that exact moment when He entered Irdya. A formless entity of dark energy, he seemed to be both everywhere and nowhere at once
+
+He introduced himself as 'The Merchant'
+
+
+
+Suddenly He floated into Irdya, a  being of dark energy not bound 
+
+
+Eventually I 
+
+
+
+My hubris and curiosity led to the release of an ancient sealed evil. 
+
+
+I wished these notes would not be needed, 
+
+
+To whoever finds this note, know that this cave is not as it seems. 
+
+You may have found this note lying on the ground, or it is possible you may have woken up and found this note in your pocket.
+
+If you are reading this note, it means I have not burned it, and so I have most likely failed.
+
+Alas I cannot write everything in one note due to the risk of them falling into His hands. I trust you to find the rest of the truth yourself.
+
+Beware of he who remembers what did not yet happen.
+
+-Mallion"
