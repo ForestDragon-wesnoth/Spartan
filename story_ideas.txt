@@ -206,6 +206,7 @@ potential required steps to get true ending (haven't fully decided on the order 
 -idea: besides the memory potion, I can also have a few other things that can carry over between playthroughs
  -for example, a orb-of-insight-enchanted key, so players can reach an true ending step area on a new playthrough, but don't gain the huge story advantage of the memory potion
   -maybe make it so that preserving those items requires doing a full playthrough to avoid savescumming abuse for the true ending?
+  -idea: maybe instead of a memory potion, maybe instead I could have a enchanted pen that lets the hoplite write down about Xerxix/Merchant for himself?
 -having both Algadur and Elizabeth could be a requirement (some steps could require one of them)
  -maybe Algadur allows the player to enter a dwarven city that is hidden from Galatea's forces
   -this area could use the City_of_Dwarves.ogg music
