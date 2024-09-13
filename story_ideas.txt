@@ -282,7 +282,7 @@ Beware of He who remembers what did not yet happen.
 
 note 2 (found after following some true ending steps):
 
-"To whoever finds this note, it appears you you have been
+"To whoever finds this note, it appears you you have begun following my trail of clues. The further you go, the more parts of the truth you will see.
 
 I must confess something, I am in part to blame for this accursed time loop. After long years of archeology and experimentation I have rediscovered the ancient secrets of interdimensional travel. I was able to create portals to any other world! I achieved what the greatest minds of elvenkind could not! The possibilities were endless! ...Now I regret every moment of it.
 
@@ -292,15 +292,32 @@ Having cheated death, I was even further emboldened to keep opening and closing 
 
 One fateful day, I opened a portal to what seemed like an empty dark void. It is that exact moment when He entered Irdya. He seemed to be formless entity of dark energy.
 
-He introduced himself as 'The Merchant', he thanked me for freeing him from his world, and offered me a deal - he would make me powerful enough to rule the whole world in exchange for telling him the secrets of interdimensional travel, the 'Pact of Overlord' as he described it.
+He thanked me for freeing him from his world, and offered me a deal - he would make me powerful enough to rule the whole world in exchange for telling him the secrets of interdimensional travel, the 'Pact of Overlord' as he described it.
 
-I was cautious, so I told the Merchant I will think about it and perhaps sell the secrets later. In reality, I knew something was wrong about Him, so I could not afford to let him find about the secrets.
+I was cautious, so I told Him I will think about it and perhaps sell the secrets later. In reality, I knew something was wrong about Him, so I could not afford to let him find about the secrets.
 
 -Mallion"
 
+OLD DRAFT OF NOTE 2 that reveals a bit much info about the merchant
+#"To whoever finds this note, it appears you you have been
+#
+#I must confess something, I am in part to blame for this accursed time loop. After long years of archeology and experimentation I have rediscovered the ancient secrets of interdimensional travel. I was able to create portals to any other world! I achieved what the greatest minds of elvenkind could not! The possibilities were endless! ...Now I regret every moment of it.
+#
+#I taught the secrets to my dear Galatea, then I bid her farewell and began exploring this cave and testing my newly-found knowledge. I built portal after portal, explored world after world, I even made a trip to the land of the dead and back alive!
+#
+#Having cheated death, I was even further emboldened to keep opening and closing portals to all sorts of worlds. As much as I would like to describe all I saw there, this note has not even a tenth of the space needed to truly describe it all, so I must omit it here.
+#
+#One fateful day, I opened a portal to what seemed like an empty dark void. It is that exact moment when He entered Irdya. He seemed to be formless entity of dark energy.
+#
+#He introduced himself as 'The Merchant', he thanked me for freeing him from his world, and offered me a deal - he would make me powerful enough to rule the whole world in exchange for telling him the secrets of interdimensional travel, the 'Pact of Overlord' as he described it.
+#
+#I was cautious, so I told the Merchant I will think about it and perhaps sell the secrets later. In reality, I knew something was wrong about Him, so I could not afford to let him find about the secrets.
+#
+#-Mallion"
+
 note 3 (found after following even more true ending steps):
 
-"Some time after the Merchant's arrival to Irdya I had began noticing odd things happening in the cave - the saurians ferociously attacked the other races inhabiting the cave despite previously having a truce.
+"Some time after His arrival to Irdya I had began noticing odd things happening in the cave - the saurians ferociously attacked the other races inhabiting the cave despite previously having a truce.
 
 From what I learned, they have a formed a new cult led by Grand Seer Anexir, worshipping a 'god of void'
 
@@ -316,11 +333,19 @@ note 4 (found after following even more true ending steps):
 
 "Having been stuck in the time loop for possibly dozens of cycles, I have discovered more about the strange purple orbs. The saurian cultists call them 'Orbs of Insight'. I have also found if I enchant an item with their energy, the item will stay with me even when the time rewinds itself.
 
-I was able to write down clues for myself, until I slowly pieced together the terrible truth:
+I was able to write down clues for myself, making it possible to slowly piece together bits of the truth.
 
-The 'god of void' the saurians spoke about was none other than the Merchant himself. The Orbs of Insight were created by all the bloodshed happening in the cave. Once when I killed a powerful saurian cultist, an Orb of Insight materialized in my hand!
+These mysterious Orbs of Insight were created by death and bloodshed happening in the cave. Once when I killed a powerful saurian cultists, each time an Orb of Insight materialized right in my hand!
 
-This whole cave was one large scheme by the Merchant to extract Orbs of Insight from the bloodshed he caused! He used mind-control magic to force the saurians to attack anyone else. And when he ran out of living beings to kill or cultists to send, he simply turned back the clock.
+During some cycles of the time loop, I also encountered a strange cloaked figure, who called himself 'The Merchant'. He seemed very interested in Orbs of Insight, and would sell various things to me in return for those orbs.
+
+He also offered various magical pacts. I did not intend to sign any, but I asked him about them.
+
+Then I heard the offer again - 'Pact of Overlord'. And that's when it all clicked together, and I finally pieced together the terrible truth:
+
+The 'god of void' the saurians spoke of, the being I accidentally released from another world, the Merchant, they were one and the same!
+
+This whole cave was one large scheme by the Merchant to extract Orbs of Insight from all the bloodshed he caused! He used mind-control magic to force the saurians to attack anyone else. And when he ran out of living beings to kill or cultists to send, he simply turned back the clock!
 
 -Mallion"
 
