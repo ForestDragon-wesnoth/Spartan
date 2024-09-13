@@ -284,7 +284,7 @@ note 2 (found after following some true ending steps):
 
 "To whoever finds this note, it appears you you have begun following my trail of clues. The further you go, the more parts of the truth you will see.
 
-I must confess something, I am in part to blame for this accursed time loop. After long years of archeology and experimentation I have rediscovered the ancient secrets of interdimensional travel. I was able to create portals to any other world! I achieved what the greatest minds of elvenkind could not! The possibilities were endless! ...Now I regret every moment of it.
+I must confess something, I am in part to blame for this accursed time loop. I went into these caves in pursuit of knowledge about an ancient civilization that used to live in these lands millenia ago. After long years of archeology and experimentation I have rediscovered their secrets of interdimensional travel. I was able to create portals to any other world! I achieved what the greatest minds of elvenkind could not! The possibilities were endless! ...Now I regret every moment of it.
 
 I taught the secrets to my dear Galatea, then I bid her farewell and began exploring this cave and testing my newly-found knowledge. I built portal after portal, explored world after world, I even made a trip to the land of the dead and back alive!
 
@@ -354,9 +354,19 @@ note 5 (found after following even more true ending steps):
 
 "I wanted to warn Galatea about the Merchant and the time loop, but each time I went towards her, time would already reset before I could reach her.
 
-I knew I had to defeat the Merchant myself somehow, and I spent many time loops doing magical experiments on the cultists under his spell.
+I knew I had to defeat the Merchant myself somehow, and I spent many time loops doing magical experiments and searching every corner of the caves, hoping to find any solution.
 
-I created [TODO: write about whatever magical item Mallion made to counter the Merchant's influence/have a chance to kill or seal him]
+After countless attempts, I stumbled upon a well-hidden part of this cave, one of the few remaining ruins of the ancient civilization besides the one where I found the secrets of interdimensional travel.
+
+There was a lot of still-intact writing on the walls, which I spent multiple time loops translating.
+
+What I discovered was the best thing I could have hoped for:
+
+It turns out, this ancient civilization's mages sealed a 'god of void' when he tried to conquer them. Their description of him perfectly matches that of 'The Merchant'. Even the time loop is mentioned, and ways to use the Orbs of Insight to circumvent some of the time loop's effects, just as I figured out.
+
+The texts mentioned the exact spell for sealing the Merchant, the fact that he does not have a body of his own and must possess a living being. And also, it is only possible to seal away the Merchant once his possessed body has been killed.
+
+I prepared as best as I could, and decided to seal the Merchant by myself.
 
 As as a failsafe, I wrote the notes you are reading and tried to hide them as best as I could so the Merchant would not find them first. If I succeeded, I planned to burn the notes.
 
@@ -366,6 +376,28 @@ I fear that my dear Galatea may be deceived by the Merchant into signing the Pac
 
 If my fears are correct, please, save her from the Merchant's grasp and break the cycle.
 
+[TODO: mention where to find the sealing spell]
+
 -Mallion"
+
+#old note 5 backup:
+
+#note 5 (found after following even more true ending steps):
+#
+#"I wanted to warn Galatea about the Merchant and the time loop, but each time I went towards her, time would already reset before I could reach her.
+#
+#I knew I had to defeat the Merchant myself somehow, and I spent many time loops doing magical experiments on the cultists under his spell.
+#
+#I created [TODO: write about whatever magical item Mallion made to counter the Merchant's influence/have a chance to kill or seal him]
+#
+#As as a failsafe, I wrote the notes you are reading and tried to hide them as best as I could so the Merchant would not find them first. If I succeeded, I #planned to burn the notes.
+#
+#However, since you are reading them, it means I have failed and it's very likely that the Merchant already killed me.
+#
+#I fear that my dear Galatea may be deceived by the Merchant into signing the Pact of Overlord, since she was entirely unaware of the Merchant and his deeds.
+#
+#If my fears are correct, please, save her from the Merchant's grasp and break the cycle.
+#
+#-Mallion"
 
 story idea: maybe orcs slaughtering dwarves was not actually part of Galatea's orders (she just wanted to find Mallion's workshop), but rather the Merchant altered her minions' behavior to ensure more bloodshed (this could be mentioned in dialog between Algadur and allied Galatea)
