@@ -13,6 +13,7 @@ People working on/helping with with the add-on:
 -story design help: Mechanical
 -custom art by Mechanical: Galatea sprites, Deployed Shield sprite, some custom UI icons
 -custom art by inferno8: hoplite portrait
+-Galatea portraits: Kordov
 -donations (as of august 20 2024):
  -Jeremias: $28
  -inferno8: $51
