@@ -210,6 +210,7 @@ potential required steps to get true ending (haven't fully decided on the order 
 -having both Algadur and Elizabeth could be a requirement (some steps could require one of them)
  -maybe Algadur allows the player to enter a dwarven city that is hidden from Galatea's forces
   -this area could use the City_of_Dwarves.ogg music
+  -this area can have a Dwarvish Lord as the main talking NPC, and various lvl2-3 dwarf guards now that I added them as randomly-spawning allies
 -discovering that Galatea is being manipulated by the Merchant
 -while under the effects of the potion, and after completing some other steps, in the "final boss fight", after completing other steps, convince Galatea that she has been tricked by the Merchant
  -might require defeating her normally again anyway, so that her cursed armor is broken (and talking to her in her defeated form)
