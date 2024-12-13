@@ -401,3 +401,19 @@ If my fears are correct, please, save her from the Merchant's grasp and break th
 #-Mallion"
 
 story idea: maybe orcs slaughtering dwarves was not actually part of Galatea's orders (she just wanted to find Mallion's workshop), but rather the Merchant altered her minions' behavior to ensure more bloodshed (this could be mentioned in dialog between Algadur and allied Galatea)
+
+
+
+True Ending reward idea:
+
+-not sure yet, was originally thinking of unlocking sandbox mode there, but it's probably better to unlock sandbox mode elsewhere and give something else as a reward
+
+-when the true ending ends, make sure to hint that there is more stuff to do, etc.
+
+True True Ending idea:
+
+-using Refumee's forestdragon sprites, make a ForestDragon boss as an easter egg superboss
+
+-defeating ForestDragon unlocks the sandbox mode
+
+-maybe to fight ForestDragon boss, you first have to beat the true ending and do some additional steps
