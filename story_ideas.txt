@@ -261,7 +261,7 @@ in the "The Great Secret" menu, players can read Mallion's notes again, and can 
 
 
 
-note 1 (on depth 1 after defeating Galatea at least once, intentionally a bit cryptic):
+note 1 (on depth 1 after defeating Galatea at least once, intentionally a bit cryptic. But near the end it hints at sparing the archmage a bit):
  note: maybe have some music playing when reading note 1 after picking it off the ground
 
 "To whoever finds this note, either my dear Galatea or someone else, know that this cave is not as it seems. If you have experienced a sense of deja vu, that things you have not seen before are oddly familiar, know that it is by no coincidence. 
@@ -272,7 +272,9 @@ Alas I cannot write everything in one note due to the risk of it falling into Hi
 
 You may have found this note lying on the ground, or it is possible you may have woken up and found this note in your pocket. If it is the latter, then it means my enchantment has worked and there is still hope to stop Him.
 
-There are more notes I have hidden from His gaze, I trust you to find the rest of the truth yourself.
+There are more notes I have hidden from His gaze. I trust you to find the rest of the truth yourself, but I shall give you a hint:
+
+search where knowledge in this cave is stored, show mercy and ask for what is behind these shelves.
 
 Beware of He who remembers what did not yet happen.
 
@@ -419,3 +421,148 @@ True True Ending idea:
 -defeating ForestDragon unlocks the sandbox mode
 
 -maybe to fight ForestDragon boss, you first have to beat the true ending and do some additional steps
+
+
+
+
+
+New step-by-step true ending steps idea, separated by playthroughs (note: may take more playthroughs if some steps are missed):
+
+TODO: make meeting the Merchant one of the requirements for the true ending (and maybe buying something from him). since while very unlikely, it's not impossible to just not run into the merchant for many playthroughs in a row
+
+
+
+--playthrough 1:
+
+step 1: defeat Galatea and get the main ending (maybe puppet ending shouldn't count towards it, or maybe it should, not sure yet)
+
+--playthrough 2:
+
+step 2: next time you start the game, on depth 1 there will a purple-glowing note on the ground. the note will keep spawning on depth 1 until the player picks it up
+
+step 3: picking up the note gives Mallion's Note 1 and access to the true ending notes/hints menu
+
+step 4: fight the archmage, but spare him by using a healing potion
+
+After being spared, he can talk about his apprentice Elizabeth going missing, the hoplite can show note 1 to the archmage
+
+archmage tells the hoplite that he heard about Mallion and his portals, but doesn't remember meeting him (most likely Mallion did meet the archmage in some timeloops, but archmage has no memory left of that)
+
+hoplite will then ask if there's anything hidden behind the bookshelves (as mallion's note suggests). archmage says that there is, and opens a secret door
+
+coordinates 2,1 and 3,2 change from wall to "Urb" terrain, and reveal a wooden chest on 2,1
+
+opening the chest gives a "Mallion's Garden key" item, which like the notes stays between playthroughs
+
+if you already spared the archmage and took the key before, the chest will be empty instead
+
+
+
+
+
+--playthrough ???:
+
+step ?: recruit Algadur
+
+step ?: skip Galatea's depth 40 fight, defeat Groshnak on depth 50
+
+step ?: in companion_dialog.cfg, Algadur mentions Lord Glamdril after killing Groshnak
+
+hint text: "defeat Groshnak the Mighty on depth 50, make sure Algadur does not run away in this way"
+ UPD: maybe an auto-unstore of Algadur could be better, maybe he can be a bit sad he missed Groshnak's death but thanks the hoplite
+
+step ?: if the player has completed previous steps, then the hoplite will ask Algadur to lead him to Glamdril, since by then the hoplite will know that the dwarves might know where Mallion's workshop is
+
+Algadur agrees, and tells the hoplite that there is a hidden tunnel that leads to the dwarf city deeper in the cave
+
+the secret tunnel could be located on depth 52 or so
+
+step ?: if previous steps are done, depth 52 is forced to be a dwarf biome with a runesmith, and a fixed map
+
+Algadur is auto-unstored on depth 52, tells the hoplite "We're gettin' close to the hidden entrance. But make sure to wipe out the orcs first, can't have any of em find out about the tunnel."
+
+step ?: once all enemies are killed and after you get a bonus runesmith upgrade (optional, the true ending steps work fine even without runesmith)
+Algadur moves next to the hidden entrance location, and a tunnel is created, with an alt exit, similar to the side tunnels before Galatea's entrance
+
+main exit to depth 53 makes depth 53 a normal random biome, taking the alt exit makes depth 53 the dwarf city location
+
+NOTE: make it so that if the player has Galatea in the team or galatea is stored, you cannot enter the dwarf city, and Algadur will point out that most dwarves hold a grudge against her for the orcs' attacks. (that way I need to write less dialog in the dwarf city)
+
+
+step ?: hoplite and the team enters the dwarf city. Algadur tells Lord Glamdril about killing Groshnak, Glamdril praises them a bit for it, and asks how can he reward them. 
+
+Hoplite asks for information about Mallion's workshop
+
+Glamdril tells about the secret entrance to the workshop, but also says that the dwarves themselves have not yet been able to check inside the workshop due to being busy defending from orcs.
+
+
+
+
+--playthrough ???:
+
+
+
+
+
+
+
+
+
+--playthrough ???:
+
+
+step: maybe instead of "hoplite remembers about Xerxix's betrayal between playthroughs", a better approach could be something like
+
+"you need to bring a specific artifact into Galatea's boss room. it is designed to break Galatea's Pact of Overlord and harms the Merchant"
+
+so Xerxix tries to go into the room to stop Galatea talking, but gets stopped by the artifact, which lets the hoplite/Galatea figure out who he is
+
+this will make it still possible to get the main ending without a boring "choose whether to do main ending or true ending" dialog option
+
+
+
+
+--final playthrough (well, final for the true ending at least, players can still keep replaying):
+
+step ?: do the following stuff before fighting Galatea: spare the archmage, recruit Algadur and Elizabeth
+
+(IMPORTANT: add some failsafe if the player keeps failing to save Algadur and doesn't get him on the team in time)
+
+if the player did not spare the archmage, the Merchant tells Elizabeth that the hoplite(s) killed the archmage.
+(though not sure at which point that should happen, but maybe on depth 40 or before depth 40, so players don't lose TOO much progress)
+
+
+
+
+step ?: defeat Galatea on depth 40 or 60 at most
+
+defeating her on depth 80 should not advance the true ending, since you need to enter the merchant's domain on the side tunnel in depth 79
+
+maybe if you defeat her on depth 80, the Merchant gets full control of her by then, and when defeated she refuses to tell anything and is maybe remotely killed by the merchant
+
+
+step ?: prevent Xerxix killing Galatea (see above, not yet 100% sure on details)
+
+step ?: Xerxix teleports away for now, hoplite tells Galatea about Mallion's notes and the Merchant, she agrees to join him to get revenge for Mallion
+
+step ?: reach depth 79 with galatea on the team
+
+note: make Galatea auto-unstored on depth 79
+
+step ?: Galatea uses her magic to open the right side, revealing a trapdoor to Merchant's Domain, creating a side entrance to depth 81
+
+step ?: fight through Merchant's domain
+
+step ?: final boss fight against the Merchant on depth 100
+
+step ?: after killing Xerxix, the Merchant's body, Galatea and Elizabeth together cast a spell to seal the Merchant and banish him from Irdya
+
+
+Ending:
+
+while the Merchant is being banished, there can be a bit of flashing + lich hit/lich die sounds, a narrator message with a transparent merchant's silhouette screaming and cursing the hoplite/galatea/mallion etc. for an epic ending. Maybe he can be try to rewind time and be shocked that it fails.
+
+the map is replaced by Merchant_Bossroom_Purified_on_victory.map, now that the Merchant's influence on the cave is gone and the time loop has broken
+
+
+NOT YET SURE ABOUT THE DETAILS OF THE ENDING ITSELF!!!
