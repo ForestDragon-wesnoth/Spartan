@@ -491,7 +491,7 @@ NOTE: make it so that if the player has Galatea in the team or galatea is stored
 
 step ?: hoplite and the team enters the dwarf city. Algadur tells Lord Glamdril about killing Groshnak, Glamdril praises them a bit for it, and asks how can he reward them. 
 
-Hoplite asks for information about Mallion's workshop
+Hoplite asks for information about Mallion's workshop, pointing out that Galatea's troops were trying to get information about the workshop from the dwarves
 
 Glamdril tells about the secret entrance to the workshop, but also says that the dwarves themselves have not yet been able to check inside the workshop due to being busy defending from orcs.
 
