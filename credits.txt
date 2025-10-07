@@ -1,5 +1,14 @@
 Music (Kreepor/March of the Droids/Burning and a few other) by Matt McFarland (from http://www.mattmcfarland.com/tracks/), to quote the composer "I make Royalty free music with ZERO licensing fees that can be used commercially. Feel free to download at my website." some other music also taken from HalcyonFalconX
 
+site is down, so Wayback Machine link: https://web.archive.org/web/20181119205037/https://www.mattmcfarland.com/
+
+https://web.archive.org/web/20181125111415/http://www.mattmcfarland.com/license
+
+McFarland is licensed under Creative Commons Attribution 4.0 International License
+
+
+
+
 Most images borrowed from either mainline wesnoth or addons (like Era of Magic)
 
 TODO: closer to release, copy some of this to the in-game credits (especially the donations category)
