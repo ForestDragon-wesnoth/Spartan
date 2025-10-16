@@ -408,6 +408,9 @@ story idea: maybe orcs slaughtering dwarves was not actually part of Galatea's o
 
 
 
+
+
+
 True Ending reward idea:
 
 -not sure yet, was originally thinking of unlocking sandbox mode there, but it's probably better to unlock sandbox mode elsewhere and give something else as a reward
@@ -566,3 +569,8 @@ the map is replaced by Merchant_Bossroom_Purified_on_victory.map, now that the M
 
 
 NOT YET SURE ABOUT THE DETAILS OF THE ENDING ITSELF!!!
+
+
+IDEA: maybe make it so Mallion can be saved or revived somehow? Either by rewinding to before he was killed, or taking Mallion's heart from the Merchant, and putting it in a statue, so he can live like Galatea
+
+UPD: I like the "Mallion's heart in a statue" idea a bit more, since it keeps his heart as a relevant plot device
