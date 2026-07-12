@@ -22,6 +22,14 @@ function wesnoth.wml_actions.spartan_kill(cfg)
 	for i,unit in ipairs(dead_men_walking) do
 		local death_loc = {x = tonumber(unit.x) or 0, y = tonumber(unit.y) or 0}
 		if not secondary_unit then killer_loc = death_loc end
+
+--SPARTAN EDITED CODE: set the unit's HP to zero BEFORE firing death events.
+--The later "unit_test_hp < 1" checks are meant to mean "the unit is (still) dying",
+--but a scripted kill (knockback into lava/chasm/wall) calls this on a FULL-HP unit,
+--so without this line unit_test_hp never drops below 1 and the unit is never erased.
+--Zeroing first makes >=1 HP after the events mean exactly one thing: a revival event (like Phoenix Amulet) restored it
+ 	    if unit.valid == "map" then unit.hitpoints = 0 end
+
 		local can_fire = false
 
 		local recursion = (kill_recursion_preventer:get(death_loc.x, death_loc.y) or 0) + 1
@@ -46,7 +54,7 @@ function wesnoth.wml_actions.spartan_kill(cfg)
 --SPARTAN EDITED CODE HERE:
 
 
-		local unit_test_if_still_alive = wesnoth.units.find_on_map({ x = death_loc.x , y = death_loc.y})
+		local unit_test_if_still_alive = wesnoth.units.find_on_map({ id = unit.id })
 
 		local unit_test_hp = 0
 
@@ -106,7 +114,7 @@ function wesnoth.wml_actions.spartan_kill(cfg)
 
 --SPARTAN EDITED CODE PART 2 HERE:
 
-		unit_test_if_still_alive = wesnoth.units.find_on_map({ x = death_loc.x , y = death_loc.y})
+		unit_test_if_still_alive = wesnoth.units.find_on_map({ id = unit.id })
 
 		if #unit_test_if_still_alive > 0 then
 			unit_test_hp = unit_test_if_still_alive[1].hitpoints
