@@ -9,7 +9,7 @@ McFarland is licensed under Creative Commons Attribution 4.0 International Licen
 
 
 
-Most images borrowed from either mainline wesnoth or addons (like Era of Magic)
+Most images borrowed from either mainline wesnoth or addons (like Era of Magic), or in case of the Ares sprite from the wesnoth forum (https://forums.wesnoth.org/viewtopic.php?t=32013&start=150 by Vranca)
 
 TODO: closer to release, copy some of this to the in-game credits (especially the donations category)
 
