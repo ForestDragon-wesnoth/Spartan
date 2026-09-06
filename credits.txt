@@ -20,7 +20,7 @@ People working on/helping with with the add-on:
 -help with dialog: Smiley J
 -maps: ForestDragon, Rovik
 -story design help: Mechanical
--custom art by Mechanical: Galatea sprites, Deployed Shield sprite, some custom UI icons
+-custom art by Mechanical: Galatea sprites, Deployed Shield sprite, some custom UI icons, orc bomber sprites
 -custom art by inferno8: hoplite portrait
 -custom art by Duncan Dill: Mallion sprite
 -custom art by Kordov: Galatea portraits
