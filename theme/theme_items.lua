@@ -234,6 +234,7 @@ function wesnoth.interface.game_display.otherinfo()
     	end
 	end
 
+
 	if wml.variables["Elizabeth_stored.id"] ~= nil then
     	if wml.variables["elizabeth_cooldown"] > 0 then
     		str2 = str2.._"Elizabeth return cooldown: <span color='#ffff99'>"..wml.variables["elizabeth_cooldown"].."</span> depths".."\n"
@@ -241,6 +242,15 @@ function wesnoth.interface.game_display.otherinfo()
     		str2 = str2.._"Elizabeth return cooldown: <span color='#ffff99'>Ready</span>".."\n"
     	end
 	end
+
+	if wml.variables["Galatea_stored.id"] ~= nil then
+    	if wml.variables["galatea_cooldown"] > 0 then
+    		str2 = str2.._"Galatea return cooldown: <span color='#ffff99'>"..wml.variables["galatea_cooldown"].."</span> depths".."\n"
+    	else 
+    		str2 = str2.._"Galatea return cooldown: <span color='#ffff99'>Ready</span>".."\n"
+    	end
+	end
+
 
 	if str2 == str2_orig then
     	str2 = str2.._"You don't yet have upgrades with a cooldown listed in this menu.".."\n"
