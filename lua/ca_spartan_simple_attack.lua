@@ -5,8 +5,14 @@ local LS = wesnoth.require "location_set"
 
 local ca_spartan_simple_attack, best_attack = {}, nil
 
---SPARTAN EDITED CODE: extra funcs - weapon_usable and can_attack
+--SPARTAN EDITED CODE: extra funcs - has_special_id, weapon_usable, can_attack and has_combo
 
+local function has_special_id(weapon, id)
+    for _,special in ipairs(weapon.specials) do
+        if (special[2].id == id) then return true end
+    end
+    return false
+end
 -- Can @attacker use @weapon on @target? @moves_first is true when the unit has to move from @src before attacking.
 local function weapon_usable(attacker, weapon, target, moves_first, src)
     for _,special in ipairs(weapon.specials) do
@@ -48,18 +54,23 @@ local function can_attack(attacker, target, att, weapon_number)
     return false
 end
 
+--crude manual check for the combo special for now. TODO: improve it to be a more generalized "unit can potentially attack multiple times in one turn" check later?
 
-
-
+local function has_combo(unit)
+    for _,weapon in ipairs(unit.attacks) do
+        if has_special_id(weapon, 'spartan_combo') then return true end
+    end
+    return false
+end
 
 function ca_spartan_simple_attack:evaluation(cfg)
+    best_attack = nil
+
     local units = AH.get_units_with_attacks {
         side = wesnoth.current.side,
         { "and", wml.get_child(cfg, "filter") }
     }
     if (not units[1]) then return 0 end
-
-    wesnoth.message("spartan AI running")
 
     -- If cfg.filter_second is set, set up a map (location set)
     -- of enemies that it is okay to attack
@@ -77,7 +88,7 @@ function ca_spartan_simple_attack:evaluation(cfg)
     local attacks = AH.get_attacks(units, { include_occupied = true })
     if (not attacks[1]) then return 0 end
 
-    local max_rating = - math.huge
+    local max_targets, max_rating = -1, - math.huge
     for _, att in ipairs(attacks) do
         local valid_target = true
         if enemy_filter and (not enemy_map:get(att.target.x, att.target.y)) then
@@ -87,12 +98,22 @@ function ca_spartan_simple_attack:evaluation(cfg)
         if valid_target then
             local attacker = wesnoth.units.get(att.src.x, att.src.y)
             local enemy = wesnoth.units.get(att.target.x, att.target.y)
-            local dst = { att.dst.x, att.dst.y }
 
-            local rating = BC.attack_rating(attacker, enemy, dst)
+            if can_attack(attacker, enemy, att, cfg.weapon) then
+                local dst = { att.dst.x, att.dst.y }
+                local rating = BC.attack_rating(attacker, enemy, dst)
 
-            if (rating > max_rating) then
-                max_rating, best_attack = rating, att
+                -- Combo units: prefer the hex with the most enemies in reach, so that a kill leaves another target for the extra attack
+                local targets = 0
+                if has_combo(attacker) then
+                    targets = #AH.get_attackable_enemies {
+                        { "filter_location", { { "filter_adjacent_location", { x = att.dst.x, y = att.dst.y } } } }
+                    }
+                end
+
+                if (targets > max_targets) or ((targets == max_targets) and (rating > max_rating)) then
+                    max_targets, max_rating, best_attack = targets, rating, att
+                end
             end
         end
     end
